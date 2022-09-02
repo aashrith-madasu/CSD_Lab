@@ -1,0 +1,5005 @@
+load And16.hdl,
+output-file And16.out,
+compare-to And16.cmp,
+output-list a%B1.16.1 b%B1.16.1 out%B1.16.1;
+
+set a %B0000101010101010,
+set b %B0000011000110100,
+eval,
+output;
+
+set a %B0001111110000010,
+set b %B0001100101100111,
+eval,
+output;
+
+set a %B0001000100010010,
+set b %B0001110011010011,
+eval,
+output;
+
+set a %B0010010110011111,
+set b %B0010000001010100,
+eval,
+output;
+
+set a %B0001001111111100,
+set b %B0010011010111010,
+eval,
+output;
+
+set a %B0010011001100100,
+set b %B0001011010111100,
+eval,
+output;
+
+set a %B0001100101100110,
+set b %B0010001100100100,
+eval,
+output;
+
+set a %B0001111111000000,
+set b %B0000010111001010,
+eval,
+output;
+
+set a %B0001110001001101,
+set b %B0000010000011100,
+eval,
+output;
+
+set a %B0010001000010100,
+set b %B0001010000100110,
+eval,
+output;
+
+set a %B0001110011100100,
+set b %B0010010000101001,
+eval,
+output;
+
+set a %B0001111000111011,
+set b %B0001100011001101,
+eval,
+output;
+
+set a %B0000101101000101,
+set b %B0001010110010001,
+eval,
+output;
+
+set a %B0010010001000100,
+set b %B0000011000011110,
+eval,
+output;
+
+set a %B0000100100100001,
+set b %B0000010101111100,
+eval,
+output;
+
+set a %B0001010000111001,
+set b %B0010010011110101,
+eval,
+output;
+
+set a %B0001110101000101,
+set b %B0001101100010001,
+eval,
+output;
+
+set a %B0010001011000111,
+set b %B0001100110010111,
+eval,
+output;
+
+set a %B0000100111110010,
+set b %B0010010111110010,
+eval,
+output;
+
+set a %B0000010101111001,
+set b %B0000101011001001,
+eval,
+output;
+
+set a %B0001110111001110,
+set b %B0001100110011001,
+eval,
+output;
+
+set a %B0001000100111100,
+set b %B0001001001011110,
+eval,
+output;
+
+set a %B0000011111010011,
+set b %B0001111110101111,
+eval,
+output;
+
+set a %B0000010111000011,
+set b %B0001101010000000,
+eval,
+output;
+
+set a %B0010001100111100,
+set b %B0001100000001011,
+eval,
+output;
+
+set a %B0001000101110000,
+set b %B0000101110011000,
+eval,
+output;
+
+set a %B0010000110100011,
+set b %B0001000000111011,
+eval,
+output;
+
+set a %B0001010111001111,
+set b %B0000010000110011,
+eval,
+output;
+
+set a %B0000110000100100,
+set b %B0010010110111100,
+eval,
+output;
+
+set a %B0010000010001011,
+set b %B0010010110010101,
+eval,
+output;
+
+set a %B0010010101111010,
+set b %B0000011110101001,
+eval,
+output;
+
+set a %B0001011010010110,
+set b %B0010010001001100,
+eval,
+output;
+
+set a %B0001010001000110,
+set b %B0000011100011010,
+eval,
+output;
+
+set a %B0001100010010100,
+set b %B0000100010110011,
+eval,
+output;
+
+set a %B0001111000000001,
+set b %B0000100101100010,
+eval,
+output;
+
+set a %B0001100111100011,
+set b %B0000100100000001,
+eval,
+output;
+
+set a %B0010000011011001,
+set b %B0000100101111101,
+eval,
+output;
+
+set a %B0001100101111001,
+set b %B0000111110001011,
+eval,
+output;
+
+set a %B0000100110100110,
+set b %B0010001110100001,
+eval,
+output;
+
+set a %B0001011101100010,
+set b %B0000100011100001,
+eval,
+output;
+
+set a %B0001000111010000,
+set b %B0000010111100110,
+eval,
+output;
+
+set a %B0000101000100110,
+set b %B0001010010111100,
+eval,
+output;
+
+set a %B0010001011100001,
+set b %B0001011010100111,
+eval,
+output;
+
+set a %B0010000101110010,
+set b %B0000011000001101,
+eval,
+output;
+
+set a %B0010000111111001,
+set b %B0001011010000000,
+eval,
+output;
+
+set a %B0000110101101000,
+set b %B0010010101111101,
+eval,
+output;
+
+set a %B0001111101101000,
+set b %B0000101010111111,
+eval,
+output;
+
+set a %B0001111000010111,
+set b %B0010010111010001,
+eval,
+output;
+
+set a %B0000011011100101,
+set b %B0001000100111010,
+eval,
+output;
+
+set a %B0000010110100101,
+set b %B0001001001111010,
+eval,
+output;
+
+set a %B0010011001111000,
+set b %B0001100110111111,
+eval,
+output;
+
+set a %B0001100010001110,
+set b %B0010000001110111,
+eval,
+output;
+
+set a %B0010011011000100,
+set b %B0000100110011000,
+eval,
+output;
+
+set a %B0001001101111000,
+set b %B0010010100010011,
+eval,
+output;
+
+set a %B0001101000001111,
+set b %B0001110010010101,
+eval,
+output;
+
+set a %B0010010000011000,
+set b %B0000100000100100,
+eval,
+output;
+
+set a %B0000011000111000,
+set b %B0001010000110101,
+eval,
+output;
+
+set a %B0010000101111101,
+set b %B0001100000100110,
+eval,
+output;
+
+set a %B0001000110010111,
+set b %B0001110111101110,
+eval,
+output;
+
+set a %B0001111110010010,
+set b %B0000110011010111,
+eval,
+output;
+
+set a %B0001001110011101,
+set b %B0000110001111011,
+eval,
+output;
+
+set a %B0000101000011111,
+set b %B0000110001000001,
+eval,
+output;
+
+set a %B0001000000100111,
+set b %B0001100111110011,
+eval,
+output;
+
+set a %B0001010000101001,
+set b %B0001001110010011,
+eval,
+output;
+
+set a %B0010010011110101,
+set b %B0010000010110000,
+eval,
+output;
+
+set a %B0000111010111101,
+set b %B0001100101100010,
+eval,
+output;
+
+set a %B0000110010000010,
+set b %B0010011000001111,
+eval,
+output;
+
+set a %B0001100111010001,
+set b %B0001100100101110,
+eval,
+output;
+
+set a %B0000011001001001,
+set b %B0001001001110111,
+eval,
+output;
+
+set a %B0001010010010000,
+set b %B0001001001111000,
+eval,
+output;
+
+set a %B0010010001101000,
+set b %B0000110001101010,
+eval,
+output;
+
+set a %B0001001001001001,
+set b %B0000010110111110,
+eval,
+output;
+
+set a %B0001011010110111,
+set b %B0000010110001010,
+eval,
+output;
+
+set a %B0010000011101010,
+set b %B0001100100011111,
+eval,
+output;
+
+set a %B0000101010100001,
+set b %B0001101010110101,
+eval,
+output;
+
+set a %B0001100000010110,
+set b %B0010000001100000,
+eval,
+output;
+
+set a %B0001001000011101,
+set b %B0010000000101100,
+eval,
+output;
+
+set a %B0001111000000100,
+set b %B0001001110011011,
+eval,
+output;
+
+set a %B0001010001010001,
+set b %B0001110101011011,
+eval,
+output;
+
+set a %B0001110100110000,
+set b %B0000111011110000,
+eval,
+output;
+
+set a %B0010000110100011,
+set b %B0001000101111011,
+eval,
+output;
+
+set a %B0001100011001000,
+set b %B0001011000101101,
+eval,
+output;
+
+set a %B0010010110010110,
+set b %B0000101001000110,
+eval,
+output;
+
+set a %B0001100011110111,
+set b %B0001000000101110,
+eval,
+output;
+
+set a %B0001011111111101,
+set b %B0000010100100101,
+eval,
+output;
+
+set a %B0001101111101110,
+set b %B0010001111110110,
+eval,
+output;
+
+set a %B0010010001111110,
+set b %B0001100111110011,
+eval,
+output;
+
+set a %B0001101111011111,
+set b %B0001001111111000,
+eval,
+output;
+
+set a %B0000111011100001,
+set b %B0000010010010110,
+eval,
+output;
+
+set a %B0000010010001100,
+set b %B0001000011010101,
+eval,
+output;
+
+set a %B0001011100110011,
+set b %B0001000110010101,
+eval,
+output;
+
+set a %B0001111110011100,
+set b %B0001011001000100,
+eval,
+output;
+
+set a %B0010000101010000,
+set b %B0001101111101110,
+eval,
+output;
+
+set a %B0000010111100101,
+set b %B0000110100101110,
+eval,
+output;
+
+set a %B0000111011010011,
+set b %B0010001111111000,
+eval,
+output;
+
+set a %B0010001100010010,
+set b %B0001111000101111,
+eval,
+output;
+
+set a %B0001101001011011,
+set b %B0000101001110100,
+eval,
+output;
+
+set a %B0000011100100011,
+set b %B0000010100011110,
+eval,
+output;
+
+set a %B0000010000110100,
+set b %B0000010001111111,
+eval,
+output;
+
+set a %B0010001110011011,
+set b %B0000110000110001,
+eval,
+output;
+
+set a %B0010001111001000,
+set b %B0000101011010110,
+eval,
+output;
+
+set a %B0001100010101010,
+set b %B0000111111011010,
+eval,
+output;
+
+set a %B0010001000001011,
+set b %B0000010111100110,
+eval,
+output;
+
+set a %B0001110100000000,
+set b %B0001010110101100,
+eval,
+output;
+
+set a %B0010000001111111,
+set b %B0000111010111010,
+eval,
+output;
+
+set a %B0010000100101010,
+set b %B0001000000010001,
+eval,
+output;
+
+set a %B0000010000110001,
+set b %B0000010001011010,
+eval,
+output;
+
+set a %B0010000011100001,
+set b %B0001000111011101,
+eval,
+output;
+
+set a %B0001111011100111,
+set b %B0000011101000100,
+eval,
+output;
+
+set a %B0000111001111000,
+set b %B0010001001010111,
+eval,
+output;
+
+set a %B0001110111110111,
+set b %B0000100010100001,
+eval,
+output;
+
+set a %B0010001100101010,
+set b %B0001011111100100,
+eval,
+output;
+
+set a %B0000010100111110,
+set b %B0001011110110100,
+eval,
+output;
+
+set a %B0001010010010000,
+set b %B0001000011000101,
+eval,
+output;
+
+set a %B0000111110000111,
+set b %B0010011001000101,
+eval,
+output;
+
+set a %B0001001000101100,
+set b %B0001001001010100,
+eval,
+output;
+
+set a %B0001110010011001,
+set b %B0000011011001111,
+eval,
+output;
+
+set a %B0001010001011001,
+set b %B0010011011100111,
+eval,
+output;
+
+set a %B0000110110011011,
+set b %B0000111010000000,
+eval,
+output;
+
+set a %B0000111110100010,
+set b %B0001100011011111,
+eval,
+output;
+
+set a %B0001110101000101,
+set b %B0001101111110010,
+eval,
+output;
+
+set a %B0001011000000010,
+set b %B0001011000001010,
+eval,
+output;
+
+set a %B0010010101000001,
+set b %B0000010110011000,
+eval,
+output;
+
+set a %B0000110010010000,
+set b %B0000010100000110,
+eval,
+output;
+
+set a %B0010001101101110,
+set b %B0010000000100111,
+eval,
+output;
+
+set a %B0001111001111000,
+set b %B0001011001000000,
+eval,
+output;
+
+set a %B0000110100100010,
+set b %B0000100001100111,
+eval,
+output;
+
+set a %B0001100101011011,
+set b %B0001111010111000,
+eval,
+output;
+
+set a %B0001000110110011,
+set b %B0001111100111110,
+eval,
+output;
+
+set a %B0001110001101000,
+set b %B0001100010001110,
+eval,
+output;
+
+set a %B0001100110010010,
+set b %B0010001001101001,
+eval,
+output;
+
+set a %B0010001101101000,
+set b %B0001010000101110,
+eval,
+output;
+
+set a %B0001100110110010,
+set b %B0001010111110001,
+eval,
+output;
+
+set a %B0000101111101001,
+set b %B0000100010110111,
+eval,
+output;
+
+set a %B0010010010000001,
+set b %B0000010000000101,
+eval,
+output;
+
+set a %B0001100010101011,
+set b %B0010010100011100,
+eval,
+output;
+
+set a %B0000101010101000,
+set b %B0000111000110011,
+eval,
+output;
+
+set a %B0000110000101111,
+set b %B0010001010001000,
+eval,
+output;
+
+set a %B0001111101011011,
+set b %B0001111111010110,
+eval,
+output;
+
+set a %B0010001010001011,
+set b %B0001101111101010,
+eval,
+output;
+
+set a %B0000011110100000,
+set b %B0000111101000010,
+eval,
+output;
+
+set a %B0000111101101011,
+set b %B0001011000001010,
+eval,
+output;
+
+set a %B0001001001001111,
+set b %B0001000011010111,
+eval,
+output;
+
+set a %B0010000101111000,
+set b %B0001100100000100,
+eval,
+output;
+
+set a %B0010011001011010,
+set b %B0001011110001101,
+eval,
+output;
+
+set a %B0001010011010110,
+set b %B0010000010110100,
+eval,
+output;
+
+set a %B0001101101111101,
+set b %B0010010100110101,
+eval,
+output;
+
+set a %B0001001000100101,
+set b %B0001010000100101,
+eval,
+output;
+
+set a %B0010010011111001,
+set b %B0000110010101011,
+eval,
+output;
+
+set a %B0000010011110000,
+set b %B0010011001101010,
+eval,
+output;
+
+set a %B0001010111000111,
+set b %B0010010101101011,
+eval,
+output;
+
+set a %B0000111000010111,
+set b %B0001101110000111,
+eval,
+output;
+
+set a %B0001001010001000,
+set b %B0001011100010011,
+eval,
+output;
+
+set a %B0000100111100101,
+set b %B0000010001000101,
+eval,
+output;
+
+set a %B0000111110100110,
+set b %B0010000110100010,
+eval,
+output;
+
+set a %B0000101100011011,
+set b %B0010000000111011,
+eval,
+output;
+
+set a %B0000111101111000,
+set b %B0001000010111100,
+eval,
+output;
+
+set a %B0001101010000010,
+set b %B0001011000111111,
+eval,
+output;
+
+set a %B0001001111101001,
+set b %B0001110110111011,
+eval,
+output;
+
+set a %B0000011011000100,
+set b %B0010010011110110,
+eval,
+output;
+
+set a %B0001011011111000,
+set b %B0000111110001111,
+eval,
+output;
+
+set a %B0001110001101001,
+set b %B0010010011111010,
+eval,
+output;
+
+set a %B0001100101011101,
+set b %B0000011001000000,
+eval,
+output;
+
+set a %B0001111000100010,
+set b %B0001101111100000,
+eval,
+output;
+
+set a %B0001101101111110,
+set b %B0010000001101111,
+eval,
+output;
+
+set a %B0001110011000010,
+set b %B0001011110110000,
+eval,
+output;
+
+set a %B0000011001110011,
+set b %B0000100000100010,
+eval,
+output;
+
+set a %B0010000001101100,
+set b %B0000101000000110,
+eval,
+output;
+
+set a %B0000011001010010,
+set b %B0000100001001110,
+eval,
+output;
+
+set a %B0000111001011111,
+set b %B0001011001001110,
+eval,
+output;
+
+set a %B0000011110100110,
+set b %B0000010101101000,
+eval,
+output;
+
+set a %B0001000101010001,
+set b %B0010010000110010,
+eval,
+output;
+
+set a %B0001111011000000,
+set b %B0010001100111011,
+eval,
+output;
+
+set a %B0001101000011101,
+set b %B0010001110100110,
+eval,
+output;
+
+set a %B0001000000011000,
+set b %B0001111011001010,
+eval,
+output;
+
+set a %B0001100001010011,
+set b %B0001011010110101,
+eval,
+output;
+
+set a %B0000110001100100,
+set b %B0001001000001010,
+eval,
+output;
+
+set a %B0010001000110100,
+set b %B0000101111110000,
+eval,
+output;
+
+set a %B0001010010001011,
+set b %B0001100000001100,
+eval,
+output;
+
+set a %B0001101101100001,
+set b %B0000100110010100,
+eval,
+output;
+
+set a %B0000011101111011,
+set b %B0001011011011111,
+eval,
+output;
+
+set a %B0010001101011101,
+set b %B0001001010111100,
+eval,
+output;
+
+set a %B0001011011000010,
+set b %B0001000100000110,
+eval,
+output;
+
+set a %B0001101111011101,
+set b %B0010001100000110,
+eval,
+output;
+
+set a %B0001011100000100,
+set b %B0001000011000011,
+eval,
+output;
+
+set a %B0010000100011001,
+set b %B0000011001111100,
+eval,
+output;
+
+set a %B0001110001010001,
+set b %B0001001000010100,
+eval,
+output;
+
+set a %B0001101110110010,
+set b %B0000110000100110,
+eval,
+output;
+
+set a %B0010000101101000,
+set b %B0010011001010111,
+eval,
+output;
+
+set a %B0001011010011100,
+set b %B0001011111101011,
+eval,
+output;
+
+set a %B0000100100111010,
+set b %B0000100101100010,
+eval,
+output;
+
+set a %B0000111010101010,
+set b %B0010000111010110,
+eval,
+output;
+
+set a %B0000010111010111,
+set b %B0001100011011010,
+eval,
+output;
+
+set a %B0001110010101100,
+set b %B0001001010100100,
+eval,
+output;
+
+set a %B0010001100011000,
+set b %B0000110011010011,
+eval,
+output;
+
+set a %B0001110110010000,
+set b %B0000001111101011,
+eval,
+output;
+
+set a %B0010011001110111,
+set b %B0001110100010000,
+eval,
+output;
+
+set a %B0000011110001000,
+set b %B0001101001111101,
+eval,
+output;
+
+set a %B0001100110111011,
+set b %B0000101000011110,
+eval,
+output;
+
+set a %B0000011111011011,
+set b %B0000110101100001,
+eval,
+output;
+
+set a %B0000011011111011,
+set b %B0010001001110110,
+eval,
+output;
+
+set a %B0001011011001011,
+set b %B0001110010111100,
+eval,
+output;
+
+set a %B0000110110100010,
+set b %B0000010011001011,
+eval,
+output;
+
+set a %B0000111101101010,
+set b %B0010001110011111,
+eval,
+output;
+
+set a %B0001100000111000,
+set b %B0001101111011010,
+eval,
+output;
+
+set a %B0000110101011010,
+set b %B0001101010111111,
+eval,
+output;
+
+set a %B0001101000110101,
+set b %B0000100010010110,
+eval,
+output;
+
+set a %B0000111000011000,
+set b %B0001110110100101,
+eval,
+output;
+
+set a %B0001001011000011,
+set b %B0010010100111111,
+eval,
+output;
+
+set a %B0001000001000101,
+set b %B0001010000011000,
+eval,
+output;
+
+set a %B0010010101110110,
+set b %B0000100011001011,
+eval,
+output;
+
+set a %B0010011011111001,
+set b %B0001010001111000,
+eval,
+output;
+
+set a %B0001100000010011,
+set b %B0010001001011110,
+eval,
+output;
+
+set a %B0000010011101100,
+set b %B0010001000010111,
+eval,
+output;
+
+set a %B0000110101101011,
+set b %B0000010110100001,
+eval,
+output;
+
+set a %B0000101100110100,
+set b %B0001011110001101,
+eval,
+output;
+
+set a %B0000111001111110,
+set b %B0010011001010010,
+eval,
+output;
+
+set a %B0000111101010010,
+set b %B0001110110000101,
+eval,
+output;
+
+set a %B0010001110111110,
+set b %B0001000111101011,
+eval,
+output;
+
+set a %B0001100101011110,
+set b %B0001011000010011,
+eval,
+output;
+
+set a %B0000101111000100,
+set b %B0010011000100010,
+eval,
+output;
+
+set a %B0010001111110001,
+set b %B0001100110011011,
+eval,
+output;
+
+set a %B0001111001000110,
+set b %B0001011001101111,
+eval,
+output;
+
+set a %B0000110101110101,
+set b %B0001001110110100,
+eval,
+output;
+
+set a %B0000100100010110,
+set b %B0001001111011111,
+eval,
+output;
+
+set a %B0001001011001000,
+set b %B0001111110000001,
+eval,
+output;
+
+set a %B0001100011011011,
+set b %B0001011001011110,
+eval,
+output;
+
+set a %B0001010110110000,
+set b %B0000110010010100,
+eval,
+output;
+
+set a %B0001000001111000,
+set b %B0000110000101001,
+eval,
+output;
+
+set a %B0001101011100000,
+set b %B0001001010110001,
+eval,
+output;
+
+set a %B0000010101011011,
+set b %B0001000000001100,
+eval,
+output;
+
+set a %B0001110110100100,
+set b %B0001111000111001,
+eval,
+output;
+
+set a %B0000101010001110,
+set b %B0001101011110011,
+eval,
+output;
+
+set a %B0001100110110100,
+set b %B0000101001001011,
+eval,
+output;
+
+set a %B0000101100100111,
+set b %B0010001010001111,
+eval,
+output;
+
+set a %B0001110111001110,
+set b %B0001101001000001,
+eval,
+output;
+
+set a %B0001011001100000,
+set b %B0010010011011011,
+eval,
+output;
+
+set a %B0010010110100110,
+set b %B0001000110001101,
+eval,
+output;
+
+set a %B0001101100010000,
+set b %B0000011111010001,
+eval,
+output;
+
+set a %B0001111111111010,
+set b %B0001000100101100,
+eval,
+output;
+
+set a %B0001101010001110,
+set b %B0001011110010011,
+eval,
+output;
+
+set a %B0001100110001001,
+set b %B0001101010001000,
+eval,
+output;
+
+set a %B0001100111001100,
+set b %B0001000110001101,
+eval,
+output;
+
+set a %B0000011110100100,
+set b %B0000010010011011,
+eval,
+output;
+
+set a %B0000101101101011,
+set b %B0001000001010100,
+eval,
+output;
+
+set a %B0001010110011000,
+set b %B0001001001100010,
+eval,
+output;
+
+set a %B0010011011000111,
+set b %B0000110111000100,
+eval,
+output;
+
+set a %B0001100000010010,
+set b %B0000111111101111,
+eval,
+output;
+
+set a %B0000101101111000,
+set b %B0000111001100111,
+eval,
+output;
+
+set a %B0000111100000010,
+set b %B0001101100101001,
+eval,
+output;
+
+set a %B0001100100100010,
+set b %B0001010111001001,
+eval,
+output;
+
+set a %B0001100110000100,
+set b %B0010010011011011,
+eval,
+output;
+
+set a %B0000011101000100,
+set b %B0000111000011011,
+eval,
+output;
+
+set a %B0010010000001111,
+set b %B0000011111100100,
+eval,
+output;
+
+set a %B0001011110000101,
+set b %B0010001000010000,
+eval,
+output;
+
+set a %B0001011000000100,
+set b %B0010010100000011,
+eval,
+output;
+
+set a %B0001001110000111,
+set b %B0010010100011100,
+eval,
+output;
+
+set a %B0001110101010100,
+set b %B0001111100010101,
+eval,
+output;
+
+set a %B0000101111101101,
+set b %B0010010101110001,
+eval,
+output;
+
+set a %B0000011111110100,
+set b %B0001001101000001,
+eval,
+output;
+
+set a %B0010011100001000,
+set b %B0001011010110000,
+eval,
+output;
+
+set a %B0000111000000001,
+set b %B0010011000000111,
+eval,
+output;
+
+set a %B0010001111011100,
+set b %B0001110010110011,
+eval,
+output;
+
+set a %B0001101001000101,
+set b %B0001111110100011,
+eval,
+output;
+
+set a %B0001100010001001,
+set b %B0000110101110011,
+eval,
+output;
+
+set a %B0001111010101110,
+set b %B0001111100111111,
+eval,
+output;
+
+set a %B0001111000101001,
+set b %B0000100001100110,
+eval,
+output;
+
+set a %B0001010110111110,
+set b %B0000011001111100,
+eval,
+output;
+
+set a %B0000110111111100,
+set b %B0001011110100011,
+eval,
+output;
+
+set a %B0000110001101000,
+set b %B0001110100100011,
+eval,
+output;
+
+set a %B0001101110100010,
+set b %B0001101001011010,
+eval,
+output;
+
+set a %B0001100110110110,
+set b %B0001000110100001,
+eval,
+output;
+
+set a %B0000111010000110,
+set b %B0000011100011101,
+eval,
+output;
+
+set a %B0010010111100110,
+set b %B0000101011011101,
+eval,
+output;
+
+set a %B0001010110011111,
+set b %B0010011001101101,
+eval,
+output;
+
+set a %B0010001110101001,
+set b %B0000101101111011,
+eval,
+output;
+
+set a %B0010000111011111,
+set b %B0001001100011010,
+eval,
+output;
+
+set a %B0001001110010100,
+set b %B0001011000011001,
+eval,
+output;
+
+set a %B0001100110100101,
+set b %B0000011001111111,
+eval,
+output;
+
+set a %B0010010111011010,
+set b %B0000010100101001,
+eval,
+output;
+
+set a %B0001001010101111,
+set b %B0001000111001001,
+eval,
+output;
+
+set a %B0000101101101010,
+set b %B0000110000011010,
+eval,
+output;
+
+set a %B0001010100110100,
+set b %B0001011010010010,
+eval,
+output;
+
+set a %B0001111001001111,
+set b %B0001111110100110,
+eval,
+output;
+
+set a %B0001011110111001,
+set b %B0001000001110111,
+eval,
+output;
+
+set a %B0010000011001011,
+set b %B0001001110010101,
+eval,
+output;
+
+set a %B0001110001110110,
+set b %B0000101001100001,
+eval,
+output;
+
+set a %B0000011100110101,
+set b %B0001001100101100,
+eval,
+output;
+
+set a %B0001100111110100,
+set b %B0010010011010101,
+eval,
+output;
+
+set a %B0000111000000101,
+set b %B0010000011101100,
+eval,
+output;
+
+set a %B0000100111000011,
+set b %B0001111001110010,
+eval,
+output;
+
+set a %B0000110100001011,
+set b %B0001100000100110,
+eval,
+output;
+
+set a %B0001110011011011,
+set b %B0000011000010000,
+eval,
+output;
+
+set a %B0001010111001010,
+set b %B0000111011000101,
+eval,
+output;
+
+set a %B0001111111100100,
+set b %B0001110101100011,
+eval,
+output;
+
+set a %B0001100101011001,
+set b %B0000110110000100,
+eval,
+output;
+
+set a %B0000110101101101,
+set b %B0000101110110111,
+eval,
+output;
+
+set a %B0000110110110001,
+set b %B0001000000101011,
+eval,
+output;
+
+set a %B0000100010011110,
+set b %B0010000010011001,
+eval,
+output;
+
+set a %B0010000000101011,
+set b %B0001100111000001,
+eval,
+output;
+
+set a %B0001100100101111,
+set b %B0000010011110100,
+eval,
+output;
+
+set a %B0001101000000011,
+set b %B0001101111000100,
+eval,
+output;
+
+set a %B0010011000111110,
+set b %B0000111100001001,
+eval,
+output;
+
+set a %B0000100010101110,
+set b %B0001111011010001,
+eval,
+output;
+
+set a %B0001000111110000,
+set b %B0001111111100011,
+eval,
+output;
+
+set a %B0000100010100010,
+set b %B0010010111000110,
+eval,
+output;
+
+set a %B0001000101100000,
+set b %B0001001100010001,
+eval,
+output;
+
+set a %B0001111011111011,
+set b %B0010010100100000,
+eval,
+output;
+
+set a %B0001111010011101,
+set b %B0010011000000000,
+eval,
+output;
+
+set a %B0001000100110100,
+set b %B0001000000101110,
+eval,
+output;
+
+set a %B0001011001100011,
+set b %B0001000010111001,
+eval,
+output;
+
+set a %B0001110111110011,
+set b %B0000011111000010,
+eval,
+output;
+
+set a %B0001000011111111,
+set b %B0010001110100011,
+eval,
+output;
+
+set a %B0001010100011111,
+set b %B0001000101100111,
+eval,
+output;
+
+set a %B0010000001001011,
+set b %B0000101110101111,
+eval,
+output;
+
+set a %B0010001011000000,
+set b %B0000010100011111,
+eval,
+output;
+
+set a %B0010001100001111,
+set b %B0001100100010110,
+eval,
+output;
+
+set a %B0010000001010000,
+set b %B0000101110100000,
+eval,
+output;
+
+set a %B0010000111110101,
+set b %B0000010100110110,
+eval,
+output;
+
+set a %B0001010101101001,
+set b %B0010000001110011,
+eval,
+output;
+
+set a %B0001001100001001,
+set b %B0001100000111000,
+eval,
+output;
+
+set a %B0001000100011001,
+set b %B0000111000010010,
+eval,
+output;
+
+set a %B0001110010011011,
+set b %B0000101010001100,
+eval,
+output;
+
+set a %B0000100111011011,
+set b %B0000001111101000,
+eval,
+output;
+
+set a %B0001110010001100,
+set b %B0001110000011100,
+eval,
+output;
+
+set a %B0000100000001000,
+set b %B0010010010010101,
+eval,
+output;
+
+set a %B0000101111000001,
+set b %B0000111001110111,
+eval,
+output;
+
+set a %B0001101010100001,
+set b %B0000101110100101,
+eval,
+output;
+
+set a %B0000110011001101,
+set b %B0010010110000000,
+eval,
+output;
+
+set a %B0010000011011010,
+set b %B0001110110001010,
+eval,
+output;
+
+set a %B0001101011000100,
+set b %B0001101011100010,
+eval,
+output;
+
+set a %B0001000110001100,
+set b %B0000011110010100,
+eval,
+output;
+
+set a %B0010011010100110,
+set b %B0010000100111111,
+eval,
+output;
+
+set a %B0000011001110110,
+set b %B0001010010100001,
+eval,
+output;
+
+set a %B0001110000001111,
+set b %B0010001000000111,
+eval,
+output;
+
+set a %B0000101011000100,
+set b %B0010010101001110,
+eval,
+output;
+
+set a %B0000010100100001,
+set b %B0001010110010100,
+eval,
+output;
+
+set a %B0001110001010100,
+set b %B0000011111101011,
+eval,
+output;
+
+set a %B0000100101011011,
+set b %B0001010101010110,
+eval,
+output;
+
+set a %B0001100011010011,
+set b %B0001001100100001,
+eval,
+output;
+
+set a %B0001110000101010,
+set b %B0010001101100010,
+eval,
+output;
+
+set a %B0000101100111100,
+set b %B0001100101000010,
+eval,
+output;
+
+set a %B0010000101010101,
+set b %B0001100101111100,
+eval,
+output;
+
+set a %B0010011001101011,
+set b %B0000011100000010,
+eval,
+output;
+
+set a %B0001011100000100,
+set b %B0001100000110101,
+eval,
+output;
+
+set a %B0010000010111100,
+set b %B0010000001110010,
+eval,
+output;
+
+set a %B0000011010000100,
+set b %B0010010010010011,
+eval,
+output;
+
+set a %B0000111100101001,
+set b %B0000010101100011,
+eval,
+output;
+
+set a %B0001011000010101,
+set b %B0001111001010001,
+eval,
+output;
+
+set a %B0001101110000011,
+set b %B0010010010000100,
+eval,
+output;
+
+set a %B0001110110101111,
+set b %B0001101111101000,
+eval,
+output;
+
+set a %B0000010111101110,
+set b %B0010011011101011,
+eval,
+output;
+
+set a %B0001101110110000,
+set b %B0010001001100110,
+eval,
+output;
+
+set a %B0000111010001010,
+set b %B0000011001000011,
+eval,
+output;
+
+set a %B0001100111000101,
+set b %B0001011111001000,
+eval,
+output;
+
+set a %B0001001101010110,
+set b %B0001101110110000,
+eval,
+output;
+
+set a %B0001111001100111,
+set b %B0001011101111100,
+eval,
+output;
+
+set a %B0000110100111110,
+set b %B0001100011010011,
+eval,
+output;
+
+set a %B0001111010101011,
+set b %B0010011000010101,
+eval,
+output;
+
+set a %B0001111000010000,
+set b %B0000100000011011,
+eval,
+output;
+
+set a %B0000111111011100,
+set b %B0000011101011111,
+eval,
+output;
+
+set a %B0000111010101111,
+set b %B0000010010010010,
+eval,
+output;
+
+set a %B0010001101011101,
+set b %B0001011010110001,
+eval,
+output;
+
+set a %B0001101101001101,
+set b %B0010011010110001,
+eval,
+output;
+
+set a %B0001001110100011,
+set b %B0001111110011000,
+eval,
+output;
+
+set a %B0010011000000111,
+set b %B0001011001000011,
+eval,
+output;
+
+set a %B0000010011011111,
+set b %B0000100100110000,
+eval,
+output;
+
+set a %B0001100111011111,
+set b %B0010010100100111,
+eval,
+output;
+
+set a %B0001000011111000,
+set b %B0000110011000011,
+eval,
+output;
+
+set a %B0010000101101100,
+set b %B0000101001111111,
+eval,
+output;
+
+set a %B0000110010111101,
+set b %B0000101000010111,
+eval,
+output;
+
+set a %B0010000110111001,
+set b %B0000011100111000,
+eval,
+output;
+
+set a %B0010000100010000,
+set b %B0010000111101010,
+eval,
+output;
+
+set a %B0010000110010111,
+set b %B0001100010011001,
+eval,
+output;
+
+set a %B0001110001001111,
+set b %B0010011001101011,
+eval,
+output;
+
+set a %B0001011101011111,
+set b %B0001011001001001,
+eval,
+output;
+
+set a %B0000100110001100,
+set b %B0010010001010100,
+eval,
+output;
+
+set a %B0000011000001100,
+set b %B0010000110011100,
+eval,
+output;
+
+set a %B0010000010100000,
+set b %B0010011001100011,
+eval,
+output;
+
+set a %B0000110100110000,
+set b %B0000011010010101,
+eval,
+output;
+
+set a %B0000100000000000,
+set b %B0001111011110001,
+eval,
+output;
+
+set a %B0001100110100001,
+set b %B0001001111111111,
+eval,
+output;
+
+set a %B0000111101001110,
+set b %B0001101111110000,
+eval,
+output;
+
+set a %B0010001111001001,
+set b %B0010000110001101,
+eval,
+output;
+
+set a %B0001100111010111,
+set b %B0000110011111001,
+eval,
+output;
+
+set a %B0000010110100101,
+set b %B0001101111101101,
+eval,
+output;
+
+set a %B0001011011000010,
+set b %B0000100110000111,
+eval,
+output;
+
+set a %B0001101001110111,
+set b %B0000110111011110,
+eval,
+output;
+
+set a %B0001110101011110,
+set b %B0001000100000100,
+eval,
+output;
+
+set a %B0010011010001010,
+set b %B0001010111110101,
+eval,
+output;
+
+set a %B0010000001111111,
+set b %B0001101110111000,
+eval,
+output;
+
+set a %B0001001010011101,
+set b %B0010000001101100,
+eval,
+output;
+
+set a %B0001100111010000,
+set b %B0000011111000010,
+eval,
+output;
+
+set a %B0001010010000100,
+set b %B0000110000010010,
+eval,
+output;
+
+set a %B0000011100111001,
+set b %B0010011001111101,
+eval,
+output;
+
+set a %B0000110100110011,
+set b %B0001000001110111,
+eval,
+output;
+
+set a %B0010011001101010,
+set b %B0001110111011010,
+eval,
+output;
+
+set a %B0001110011111100,
+set b %B0000011011010011,
+eval,
+output;
+
+set a %B0000101001001110,
+set b %B0010001000110011,
+eval,
+output;
+
+set a %B0010011001110010,
+set b %B0001110100011000,
+eval,
+output;
+
+set a %B0000011111100100,
+set b %B0001010101011010,
+eval,
+output;
+
+set a %B0001000110101001,
+set b %B0000101111000011,
+eval,
+output;
+
+set a %B0010010000100100,
+set b %B0001100011110000,
+eval,
+output;
+
+set a %B0000100101110011,
+set b %B0010000111000011,
+eval,
+output;
+
+set a %B0001001000000001,
+set b %B0001100000100011,
+eval,
+output;
+
+set a %B0001100110111000,
+set b %B0001110110000010,
+eval,
+output;
+
+set a %B0010010111101111,
+set b %B0001011011111100,
+eval,
+output;
+
+set a %B0010000100000110,
+set b %B0000110110110110,
+eval,
+output;
+
+set a %B0001000011100101,
+set b %B0010000110101001,
+eval,
+output;
+
+set a %B0001101001010000,
+set b %B0010001110000010,
+eval,
+output;
+
+set a %B0010000100110000,
+set b %B0000011000000011,
+eval,
+output;
+
+set a %B0010001100101011,
+set b %B0001001111001101,
+eval,
+output;
+
+set a %B0000111001100001,
+set b %B0001010011001011,
+eval,
+output;
+
+set a %B0001010100001111,
+set b %B0001100101010010,
+eval,
+output;
+
+set a %B0000101010100010,
+set b %B0000110111100000,
+eval,
+output;
+
+set a %B0001001001000000,
+set b %B0010001010101001,
+eval,
+output;
+
+set a %B0000011101011111,
+set b %B0001010000111110,
+eval,
+output;
+
+set a %B0001100001001010,
+set b %B0001001010011111,
+eval,
+output;
+
+set a %B0001101110111001,
+set b %B0000111010011000,
+eval,
+output;
+
+set a %B0000111110110000,
+set b %B0001100100101011,
+eval,
+output;
+
+set a %B0001101110010101,
+set b %B0001110100000001,
+eval,
+output;
+
+set a %B0000111101000001,
+set b %B0001001100101000,
+eval,
+output;
+
+set a %B0010000111110101,
+set b %B0001111111000010,
+eval,
+output;
+
+set a %B0001010110011110,
+set b %B0001101011111001,
+eval,
+output;
+
+set a %B0000100001100110,
+set b %B0000101110100100,
+eval,
+output;
+
+set a %B0001000111001000,
+set b %B0000101110100110,
+eval,
+output;
+
+set a %B0000010101110011,
+set b %B0000110001100110,
+eval,
+output;
+
+set a %B0001101110010101,
+set b %B0000110000010111,
+eval,
+output;
+
+set a %B0001011010000011,
+set b %B0010000101100100,
+eval,
+output;
+
+set a %B0001101101101100,
+set b %B0001001000110001,
+eval,
+output;
+
+set a %B0001101010110110,
+set b %B0000010010101110,
+eval,
+output;
+
+set a %B0001011110000011,
+set b %B0001010100100100,
+eval,
+output;
+
+set a %B0010011010100010,
+set b %B0010011010001111,
+eval,
+output;
+
+set a %B0001111110010001,
+set b %B0000010000010110,
+eval,
+output;
+
+set a %B0001111000010110,
+set b %B0010010010111110,
+eval,
+output;
+
+set a %B0001010100001000,
+set b %B0001000000101101,
+eval,
+output;
+
+set a %B0000110111001001,
+set b %B0010010111000011,
+eval,
+output;
+
+set a %B0010011010011001,
+set b %B0001011101100011,
+eval,
+output;
+
+set a %B0000011011101101,
+set b %B0001001111001000,
+eval,
+output;
+
+set a %B0001000100111101,
+set b %B0010001011110000,
+eval,
+output;
+
+set a %B0001110111011011,
+set b %B0000010101100011,
+eval,
+output;
+
+set a %B0001101111001100,
+set b %B0001101010001011,
+eval,
+output;
+
+set a %B0010010101011110,
+set b %B0000100000100100,
+eval,
+output;
+
+set a %B0001011111000000,
+set b %B0001101100000010,
+eval,
+output;
+
+set a %B0001010110111011,
+set b %B0001100111000001,
+eval,
+output;
+
+set a %B0000100011100000,
+set b %B0001101110100001,
+eval,
+output;
+
+set a %B0001011000011101,
+set b %B0000011000101011,
+eval,
+output;
+
+set a %B0010010001010000,
+set b %B0010000010110000,
+eval,
+output;
+
+set a %B0000011100010111,
+set b %B0010010001111111,
+eval,
+output;
+
+set a %B0001011100100001,
+set b %B0001111010110101,
+eval,
+output;
+
+set a %B0001010110111010,
+set b %B0001011110101101,
+eval,
+output;
+
+set a %B0000011100101011,
+set b %B0000010110110111,
+eval,
+output;
+
+set a %B0001111001010100,
+set b %B0001100011001110,
+eval,
+output;
+
+set a %B0001001011010010,
+set b %B0001100101011100,
+eval,
+output;
+
+set a %B0000101111000111,
+set b %B0000011010011000,
+eval,
+output;
+
+set a %B0001011100010001,
+set b %B0001110110010111,
+eval,
+output;
+
+set a %B0001101000100110,
+set b %B0000111000111101,
+eval,
+output;
+
+set a %B0000010100110100,
+set b %B0001001101010111,
+eval,
+output;
+
+set a %B0000101100000010,
+set b %B0000100111100000,
+eval,
+output;
+
+set a %B0001010111001010,
+set b %B0010010001111110,
+eval,
+output;
+
+set a %B0001001101000011,
+set b %B0000111001001011,
+eval,
+output;
+
+set a %B0001010111000100,
+set b %B0001110010001010,
+eval,
+output;
+
+set a %B0000111000110011,
+set b %B0000101110000110,
+eval,
+output;
+
+set a %B0010010111111110,
+set b %B0000011111111000,
+eval,
+output;
+
+set a %B0001101001010101,
+set b %B0001001110011011,
+eval,
+output;
+
+set a %B0001010001110010,
+set b %B0001011011111110,
+eval,
+output;
+
+set a %B0000100010100101,
+set b %B0010010100000110,
+eval,
+output;
+
+set a %B0000010000111001,
+set b %B0000011100110111,
+eval,
+output;
+
+set a %B0000100111001001,
+set b %B0010000011100100,
+eval,
+output;
+
+set a %B0001110011111100,
+set b %B0010011001100110,
+eval,
+output;
+
+set a %B0000110100110001,
+set b %B0000010100100110,
+eval,
+output;
+
+set a %B0000011011011000,
+set b %B0001110100111110,
+eval,
+output;
+
+set a %B0001110011110001,
+set b %B0001011111101010,
+eval,
+output;
+
+set a %B0001111110100001,
+set b %B0000101001101101,
+eval,
+output;
+
+set a %B0000101000000011,
+set b %B0001101000011111,
+eval,
+output;
+
+set a %B0001110101100011,
+set b %B0001111101101111,
+eval,
+output;
+
+set a %B0000110101010011,
+set b %B0000110111110101,
+eval,
+output;
+
+set a %B0001010000001001,
+set b %B0001011000100110,
+eval,
+output;
+
+set a %B0001010100100111,
+set b %B0010000100000110,
+eval,
+output;
+
+set a %B0001100011111101,
+set b %B0000011000010001,
+eval,
+output;
+
+set a %B0000111100101000,
+set b %B0010010101011101,
+eval,
+output;
+
+set a %B0001010011001111,
+set b %B0001110101101111,
+eval,
+output;
+
+set a %B0010001101101001,
+set b %B0001001110001000,
+eval,
+output;
+
+set a %B0010010000101000,
+set b %B0000101100010100,
+eval,
+output;
+
+set a %B0001000101101101,
+set b %B0000110101001010,
+eval,
+output;
+
+set a %B0001101101110100,
+set b %B0000101111001111,
+eval,
+output;
+
+set a %B0001001011011101,
+set b %B0010010100000111,
+eval,
+output;
+
+set a %B0000101101111100,
+set b %B0010010100001001,
+eval,
+output;
+
+set a %B0010011001000101,
+set b %B0000100100101000,
+eval,
+output;
+
+set a %B0000100111001110,
+set b %B0001011100001000,
+eval,
+output;
+
+set a %B0010010001000001,
+set b %B0000111100000001,
+eval,
+output;
+
+set a %B0001000100100100,
+set b %B0001110101110111,
+eval,
+output;
+
+set a %B0001110010110111,
+set b %B0010010010110000,
+eval,
+output;
+
+set a %B0000111110100010,
+set b %B0000101110110010,
+eval,
+output;
+
+set a %B0010011001010000,
+set b %B0001100101010111,
+eval,
+output;
+
+set a %B0001001010000100,
+set b %B0010001110101001,
+eval,
+output;
+
+set a %B0001010010010111,
+set b %B0000100101110110,
+eval,
+output;
+
+set a %B0000011101100110,
+set b %B0001011110001010,
+eval,
+output;
+
+set a %B0001000101101111,
+set b %B0000101011001011,
+eval,
+output;
+
+set a %B0000010110111100,
+set b %B0001000011011111,
+eval,
+output;
+
+set a %B0001010011110000,
+set b %B0000001111101011,
+eval,
+output;
+
+set a %B0000101011101110,
+set b %B0000111100100111,
+eval,
+output;
+
+set a %B0010010110111011,
+set b %B0001110101101001,
+eval,
+output;
+
+set a %B0000110010101100,
+set b %B0001101001111111,
+eval,
+output;
+
+set a %B0010010111100100,
+set b %B0001100101001000,
+eval,
+output;
+
+set a %B0001010100011011,
+set b %B0001111001111010,
+eval,
+output;
+
+set a %B0000101110000011,
+set b %B0001001101000001,
+eval,
+output;
+
+set a %B0001101110000011,
+set b %B0001111101000010,
+eval,
+output;
+
+set a %B0010000000011110,
+set b %B0001100101000100,
+eval,
+output;
+
+set a %B0010000001000110,
+set b %B0000011101011011,
+eval,
+output;
+
+set a %B0001100100000100,
+set b %B0010001100010001,
+eval,
+output;
+
+set a %B0000100011101010,
+set b %B0010010000110000,
+eval,
+output;
+
+set a %B0000111001110001,
+set b %B0000100100100000,
+eval,
+output;
+
+set a %B0001101101101001,
+set b %B0010000100110101,
+eval,
+output;
+
+set a %B0010001110110011,
+set b %B0001011100101011,
+eval,
+output;
+
+set a %B0001000000101111,
+set b %B0001010000110000,
+eval,
+output;
+
+set a %B0010000110100111,
+set b %B0010000111110101,
+eval,
+output;
+
+set a %B0010010000101110,
+set b %B0001110110101111,
+eval,
+output;
+
+set a %B0000010110011111,
+set b %B0000111011110101,
+eval,
+output;
+
+set a %B0001111101101100,
+set b %B0000100110010110,
+eval,
+output;
+
+set a %B0001111010101110,
+set b %B0000110011010011,
+eval,
+output;
+
+set a %B0000101001011010,
+set b %B0000111011011110,
+eval,
+output;
+
+set a %B0010011000111001,
+set b %B0010010001110011,
+eval,
+output;
+
+set a %B0000100110111111,
+set b %B0000110011110100,
+eval,
+output;
+
+set a %B0010001011110000,
+set b %B0001101110011111,
+eval,
+output;
+
+set a %B0000011010111111,
+set b %B0001011101000110,
+eval,
+output;
+
+set a %B0001100010101101,
+set b %B0010000010111101,
+eval,
+output;
+
+set a %B0000010000100010,
+set b %B0000101010011101,
+eval,
+output;
+
+set a %B0001101000110111,
+set b %B0000101101110010,
+eval,
+output;
+
+set a %B0000110000101000,
+set b %B0000110010110000,
+eval,
+output;
+
+set a %B0001111110001011,
+set b %B0001101011010101,
+eval,
+output;
+
+set a %B0001100100011111,
+set b %B0001101011110100,
+eval,
+output;
+
+set a %B0010010110000000,
+set b %B0001010101101001,
+eval,
+output;
+
+set a %B0001101111100110,
+set b %B0001110101100010,
+eval,
+output;
+
+set a %B0000100011101100,
+set b %B0000010000010001,
+eval,
+output;
+
+set a %B0001010101100000,
+set b %B0000010011101001,
+eval,
+output;
+
+set a %B0000010010000010,
+set b %B0000100011101000,
+eval,
+output;
+
+set a %B0010010110101101,
+set b %B0010000100110110,
+eval,
+output;
+
+set a %B0001110010000010,
+set b %B0000011001110111,
+eval,
+output;
+
+set a %B0001100101000011,
+set b %B0010001010100000,
+eval,
+output;
+
+set a %B0010001010011110,
+set b %B0000110100000110,
+eval,
+output;
+
+set a %B0001010100110111,
+set b %B0010000111111011,
+eval,
+output;
+
+set a %B0000010010110000,
+set b %B0001111110000011,
+eval,
+output;
+
+set a %B0000101111110001,
+set b %B0000010001101001,
+eval,
+output;
+
+set a %B0001110111111100,
+set b %B0001000101110011,
+eval,
+output;
+
+set a %B0001011101001110,
+set b %B0000100101011101,
+eval,
+output;
+
+set a %B0000110000110001,
+set b %B0000110010010001,
+eval,
+output;
+
+set a %B0000111001000011,
+set b %B0001011011101001,
+eval,
+output;
+
+set a %B0000010110010001,
+set b %B0001101011110011,
+eval,
+output;
+
+set a %B0000111000110000,
+set b %B0000111001101101,
+eval,
+output;
+
+set a %B0001011000000010,
+set b %B0001101011001111,
+eval,
+output;
+
+set a %B0010001101110101,
+set b %B0001001111000011,
+eval,
+output;
+
+set a %B0001001010100011,
+set b %B0010010100010001,
+eval,
+output;
+
+set a %B0000110001001110,
+set b %B0010010111110111,
+eval,
+output;
+
+set a %B0000011001011000,
+set b %B0000111011101101,
+eval,
+output;
+
+set a %B0001001101011011,
+set b %B0000110101001000,
+eval,
+output;
+
+set a %B0000100000111100,
+set b %B0000111001110111,
+eval,
+output;
+
+set a %B0001011110010010,
+set b %B0001010001001110,
+eval,
+output;
+
+set a %B0010010101010010,
+set b %B0000011001110111,
+eval,
+output;
+
+set a %B0000101101000001,
+set b %B0010010000100001,
+eval,
+output;
+
+set a %B0010011000000111,
+set b %B0001110111010011,
+eval,
+output;
+
+set a %B0000101110010100,
+set b %B0010011011111011,
+eval,
+output;
+
+set a %B0000101011010000,
+set b %B0000100001101111,
+eval,
+output;
+
+set a %B0010010000111000,
+set b %B0001011111001111,
+eval,
+output;
+
+set a %B0010010101100010,
+set b %B0010000000010000,
+eval,
+output;
+
+set a %B0001101110000111,
+set b %B0000100100001010,
+eval,
+output;
+
+set a %B0001000101100001,
+set b %B0001000110011110,
+eval,
+output;
+
+set a %B0001010101000001,
+set b %B0010000011111101,
+eval,
+output;
+
+set a %B0001111000001111,
+set b %B0001011011000100,
+eval,
+output;
+
+set a %B0001111011010000,
+set b %B0000101101101001,
+eval,
+output;
+
+set a %B0000110111000110,
+set b %B0000101010000010,
+eval,
+output;
+
+set a %B0000111001101010,
+set b %B0001011100001000,
+eval,
+output;
+
+set a %B0000101000101010,
+set b %B0001101110110011,
+eval,
+output;
+
+set a %B0000110100100011,
+set b %B0001001000101111,
+eval,
+output;
+
+set a %B0001101011101010,
+set b %B0000110111111101,
+eval,
+output;
+
+set a %B0000111110001101,
+set b %B0010011000110010,
+eval,
+output;
+
+set a %B0000011010111010,
+set b %B0010010111101010,
+eval,
+output;
+
+set a %B0001011010110010,
+set b %B0000111101010110,
+eval,
+output;
+
+set a %B0000110001010010,
+set b %B0000010000100101,
+eval,
+output;
+
+set a %B0001110101010101,
+set b %B0000100110001011,
+eval,
+output;
+
+set a %B0000101110010011,
+set b %B0000101001110111,
+eval,
+output;
+
+set a %B0010011011011011,
+set b %B0000100011010110,
+eval,
+output;
+
+set a %B0001111010101110,
+set b %B0001010001100100,
+eval,
+output;
+
+set a %B0010000101100100,
+set b %B0010010100110010,
+eval,
+output;
+
+set a %B0000111011011001,
+set b %B0000010011100010,
+eval,
+output;
+
+set a %B0000010110011101,
+set b %B0000011000011000,
+eval,
+output;
+
+set a %B0010011001000010,
+set b %B0001100001000111,
+eval,
+output;
+
+set a %B0001011101010101,
+set b %B0010001111110010,
+eval,
+output;
+
+set a %B0000100111111011,
+set b %B0000110100111000,
+eval,
+output;
+
+set a %B0000010001100101,
+set b %B0010010100110010,
+eval,
+output;
+
+set a %B0001110111110011,
+set b %B0010001000010001,
+eval,
+output;
+
+set a %B0010010000001110,
+set b %B0000110001110000,
+eval,
+output;
+
+set a %B0001100111101010,
+set b %B0001010101100100,
+eval,
+output;
+
+set a %B0010000001111000,
+set b %B0001010011100100,
+eval,
+output;
+
+set a %B0001101000111100,
+set b %B0010001001110111,
+eval,
+output;
+
+set a %B0001000010111100,
+set b %B0001011111100111,
+eval,
+output;
+
+set a %B0000001111110010,
+set b %B0001101110011100,
+eval,
+output;
+
+set a %B0001110101111011,
+set b %B0001011101011011,
+eval,
+output;
+
+set a %B0000101110111000,
+set b %B0010001010100111,
+eval,
+output;
+
+set a %B0001101001101111,
+set b %B0001101000011001,
+eval,
+output;
+
+set a %B0001010011010011,
+set b %B0001100011000110,
+eval,
+output;
+
+set a %B0000111111111001,
+set b %B0000100110101110,
+eval,
+output;
+
+set a %B0001110100000110,
+set b %B0000011011011101,
+eval,
+output;
+
+set a %B0001101110011111,
+set b %B0001010000001011,
+eval,
+output;
+
+set a %B0000010011011110,
+set b %B0010001010111000,
+eval,
+output;
+
+set a %B0001001010101100,
+set b %B0000011111100111,
+eval,
+output;
+
+set a %B0010000011110011,
+set b %B0001011001111100,
+eval,
+output;
+
+set a %B0001100110101001,
+set b %B0010001010010011,
+eval,
+output;
+
+set a %B0001111011000100,
+set b %B0010000101101000,
+eval,
+output;
+
+set a %B0010010101111110,
+set b %B0010010001101110,
+eval,
+output;
+
+set a %B0001000110100101,
+set b %B0010010100111110,
+eval,
+output;
+
+set a %B0000100000011110,
+set b %B0001000011100001,
+eval,
+output;
+
+set a %B0000010010011011,
+set b %B0000101011010111,
+eval,
+output;
+
+set a %B0001010100010010,
+set b %B0001111010001011,
+eval,
+output;
+
+set a %B0001111101011011,
+set b %B0010000110011011,
+eval,
+output;
+
+set a %B0001101001100110,
+set b %B0010001000111000,
+eval,
+output;
+
+set a %B0001110100010000,
+set b %B0000101110010011,
+eval,
+output;
+
+set a %B0000011100010011,
+set b %B0000100000101001,
+eval,
+output;
+
+set a %B0001111000101001,
+set b %B0010000111001100,
+eval,
+output;
+
+set a %B0001000001100011,
+set b %B0000100100001011,
+eval,
+output;
+
+set a %B0001010010011000,
+set b %B0001000001110000,
+eval,
+output;
+
+set a %B0001001110100100,
+set b %B0001011101111011,
+eval,
+output;
+
+set a %B0001000011100011,
+set b %B0001110011101111,
+eval,
+output;
+
+set a %B0001100010111011,
+set b %B0010011011000110,
+eval,
+output;
+
+set a %B0001000011110101,
+set b %B0010000011100010,
+eval,
+output;
+
+set a %B0001110010000100,
+set b %B0010010001001010,
+eval,
+output;
+
+set a %B0000100000001001,
+set b %B0001111001011011,
+eval,
+output;
+
+set a %B0001010010111010,
+set b %B0000011110100001,
+eval,
+output;
+
+set a %B0000100100100110,
+set b %B0001011111011010,
+eval,
+output;
+
+set a %B0001000001011111,
+set b %B0000010111001111,
+eval,
+output;
+
+set a %B0010010101110100,
+set b %B0001011111110011,
+eval,
+output;
+
+set a %B0000111010001011,
+set b %B0001101000001101,
+eval,
+output;
+
+set a %B0000110110100011,
+set b %B0001101111000001,
+eval,
+output;
+
+set a %B0010001001010101,
+set b %B0001000110101101,
+eval,
+output;
+
+set a %B0001010010111010,
+set b %B0000011111000111,
+eval,
+output;
+
+set a %B0001110001101101,
+set b %B0001100001101001,
+eval,
+output;
+
+set a %B0001000011001001,
+set b %B0010001111011010,
+eval,
+output;
+
+set a %B0001001110101000,
+set b %B0001000100111001,
+eval,
+output;
+
+set a %B0001110111100001,
+set b %B0001011001111000,
+eval,
+output;
+
+set a %B0000100111011000,
+set b %B0000010100101000,
+eval,
+output;
+
+set a %B0000011110010111,
+set b %B0001001101011111,
+eval,
+output;
+
+set a %B0000011111000110,
+set b %B0000110101010010,
+eval,
+output;
+
+set a %B0000110100101011,
+set b %B0001000100111111,
+eval,
+output;
+
+set a %B0001000111000110,
+set b %B0010011011000010,
+eval,
+output;
+
+set a %B0001010100011001,
+set b %B0000101010100100,
+eval,
+output;
+
+set a %B0001111010101101,
+set b %B0001000100110001,
+eval,
+output;
+
+set a %B0000111100100001,
+set b %B0010011011010000,
+eval,
+output;
+
+set a %B0000101000011011,
+set b %B0000011011110101,
+eval,
+output;
+
+set a %B0010001100110111,
+set b %B0001101010100011,
+eval,
+output;
+
+set a %B0010010010010100,
+set b %B0000101100101111,
+eval,
+output;
+
+set a %B0010010001011100,
+set b %B0010001111001100,
+eval,
+output;
+
+set a %B0001100000110000,
+set b %B0000110011100100,
+eval,
+output;
+
+set a %B0001001000101111,
+set b %B0001010110011010,
+eval,
+output;
+
+set a %B0010000100101000,
+set b %B0001100011101011,
+eval,
+output;
+
+set a %B0001110010100000,
+set b %B0000100001101001,
+eval,
+output;
+
+set a %B0001000010111101,
+set b %B0001010011100110,
+eval,
+output;
+
+set a %B0000010001000100,
+set b %B0010010001010010,
+eval,
+output;
+
+set a %B0000101101010100,
+set b %B0001111010111100,
+eval,
+output;
+
+set a %B0001000000111100,
+set b %B0000010001011100,
+eval,
+output;
+
+set a %B0001010100110101,
+set b %B0000110101100101,
+eval,
+output;
+
+set a %B0001100010000111,
+set b %B0010011010101010,
+eval,
+output;
+
+set a %B0000111110000100,
+set b %B0001011001010011,
+eval,
+output;
+
+set a %B0010001101000111,
+set b %B0001011111000011,
+eval,
+output;
+
+set a %B0010010110101100,
+set b %B0010010001111111,
+eval,
+output;
+
+set a %B0001101010011101,
+set b %B0010011100001110,
+eval,
+output;
+
+set a %B0010000010111000,
+set b %B0001000100001110,
+eval,
+output;
+
+set a %B0001011110011110,
+set b %B0001111011111110,
+eval,
+output;
+
+set a %B0001110000101001,
+set b %B0001010100010011,
+eval,
+output;
+
+set a %B0001011100000101,
+set b %B0000101101111101,
+eval,
+output;
+
+set a %B0010011011010101,
+set b %B0000100000000111,
+eval,
+output;
+
+set a %B0010000010001110,
+set b %B0000111011110011,
+eval,
+output;
+
+set a %B0001101011111100,
+set b %B0001110100111010,
+eval,
+output;
+
+set a %B0000010100101110,
+set b %B0000111101010100,
+eval,
+output;
+
+set a %B0001000101100010,
+set b %B0001001100110110,
+eval,
+output;
+
+set a %B0001011010111100,
+set b %B0001101000101001,
+eval,
+output;
+
+set a %B0001100100111100,
+set b %B0000100001011011,
+eval,
+output;
+
+set a %B0010010101100001,
+set b %B0001110000111101,
+eval,
+output;
+
+set a %B0001000111010101,
+set b %B0000111011101001,
+eval,
+output;
+
+set a %B0000100101111000,
+set b %B0001000101000010,
+eval,
+output;
+
+set a %B0000010001111011,
+set b %B0001011001011001,
+eval,
+output;
+
+set a %B0001100010101110,
+set b %B0010010111111100,
+eval,
+output;
+
+set a %B0001110111111011,
+set b %B0001110000110111,
+eval,
+output;
+
+set a %B0000010100110000,
+set b %B0000101100011101,
+eval,
+output;
+
+set a %B0001010010011100,
+set b %B0000101010111110,
+eval,
+output;
+
+set a %B0001000101101011,
+set b %B0010010100010111,
+eval,
+output;
+
+set a %B0001010110001010,
+set b %B0001001000100001,
+eval,
+output;
+
+set a %B0010000100110010,
+set b %B0001111111011110,
+eval,
+output;
+
+set a %B0001111110101001,
+set b %B0001100110100000,
+eval,
+output;
+
+set a %B0001011100000110,
+set b %B0010001010100110,
+eval,
+output;
+
+set a %B0001111011110110,
+set b %B0001011000101101,
+eval,
+output;
+
+set a %B0001110111011100,
+set b %B0000100000111000,
+eval,
+output;
+
+set a %B0001010000100111,
+set b %B0010001000101001,
+eval,
+output;
+
+set a %B0010001010010000,
+set b %B0000110000101101,
+eval,
+output;
+
+set a %B0000110100101110,
+set b %B0001100001110110,
+eval,
+output;
+
+set a %B0010001011111110,
+set b %B0000010000010001,
+eval,
+output;
+
+set a %B0001101001010100,
+set b %B0000110100111001,
+eval,
+output;
+
+set a %B0000111000000110,
+set b %B0001001111000000,
+eval,
+output;
+
+set a %B0000101001001111,
+set b %B0000111110000011,
+eval,
+output;
+
+set a %B0010011001010000,
+set b %B0001101110001101,
+eval,
+output;
+
+set a %B0000010101000101,
+set b %B0000101000110110,
+eval,
+output;
+
+set a %B0000111111100001,
+set b %B0010010000011110,
+eval,
+output;
+
+set a %B0001001100101111,
+set b %B0000101100001010,
+eval,
+output;
+
+set a %B0001010000000000,
+set b %B0010000100100100,
+eval,
+output;
+
+set a %B0001000100000100,
+set b %B0001100111010011,
+eval,
+output;
+
+set a %B0010000010101110,
+set b %B0001010011111111,
+eval,
+output;
+
+set a %B0001010000011010,
+set b %B0010010011110011,
+eval,
+output;
+
+set a %B0001111010001111,
+set b %B0000110011001111,
+eval,
+output;
+
+set a %B0001101111011110,
+set b %B0000110101000111,
+eval,
+output;
+
+set a %B0000101000011110,
+set b %B0001011010111011,
+eval,
+output;
+
+set a %B0010011001101011,
+set b %B0000101010111000,
+eval,
+output;
+
+set a %B0000111111111001,
+set b %B0000011011011001,
+eval,
+output;
+
+set a %B0001110010100011,
+set b %B0001101010110001,
+eval,
+output;
+
+set a %B0001110101111111,
+set b %B0000110000000000,
+eval,
+output;
+
+set a %B0000101010000100,
+set b %B0000010001000110,
+eval,
+output;
+
+set a %B0000101111010110,
+set b %B0000010111010001,
+eval,
+output;
+
+set a %B0000110111001110,
+set b %B0001011010110000,
+eval,
+output;
+
+set a %B0000110010000000,
+set b %B0001100010000010,
+eval,
+output;
+
+set a %B0000111101000011,
+set b %B0010010111000111,
+eval,
+output;
+
+set a %B0000011000001000,
+set b %B0001010101101011,
+eval,
+output;
+
+set a %B0001000111000010,
+set b %B0000101110000100,
+eval,
+output;
+
+set a %B0001101011110110,
+set b %B0000100010011010,
+eval,
+output;
+
+set a %B0001011001110101,
+set b %B0000100100110011,
+eval,
+output;
+
+set a %B0001011111011001,
+set b %B0010011000011100,
+eval,
+output;
+
+set a %B0000011001011011,
+set b %B0001000110000010,
+eval,
+output;
+
+set a %B0000011000100101,
+set b %B0001110001101000,
+eval,
+output;
+
+set a %B0001111111110110,
+set b %B0010001100101110,
+eval,
+output;
+
+set a %B0000010010000011,
+set b %B0001110111100101,
+eval,
+output;
+
+set a %B0001110010001111,
+set b %B0001111011100011,
+eval,
+output;
+
+set a %B0000101000101101,
+set b %B0010000100111100,
+eval,
+output;
+
+set a %B0001011000001011,
+set b %B0010001000001000,
+eval,
+output;
+
+set a %B0010000111110010,
+set b %B0001111010110011,
+eval,
+output;
+
+set a %B0001001001111010,
+set b %B0001010001101111,
+eval,
+output;
+
+set a %B0001001101111110,
+set b %B0000100110110100,
+eval,
+output;
+
+set a %B0001101110000010,
+set b %B0010000011110101,
+eval,
+output;
+
+set a %B0000011101101011,
+set b %B0000111000101111,
+eval,
+output;
+
+set a %B0001011111011011,
+set b %B0001011011101111,
+eval,
+output;
+
+set a %B0001110001000010,
+set b %B0010000000101110,
+eval,
+output;
+
+set a %B0001010101011100,
+set b %B0001111001010101,
+eval,
+output;
+
+set a %B0000010100010110,
+set b %B0001100011101010,
+eval,
+output;
+
+set a %B0010000101011101,
+set b %B0001011000111100,
+eval,
+output;
+
+set a %B0000110111111100,
+set b %B0010011010110111,
+eval,
+output;
+
+set a %B0000010010001000,
+set b %B0001100111001000,
+eval,
+output;
+
+set a %B0000101000001000,
+set b %B0001110111111001,
+eval,
+output;
+
+set a %B0000100001100010,
+set b %B0001001001110111,
+eval,
+output;
+
+set a %B0000110110010010,
+set b %B0000010101000011,
+eval,
+output;
+
+set a %B0001010011001111,
+set b %B0001011010101000,
+eval,
+output;
+
+set a %B0001100111101001,
+set b %B0000011000100111,
+eval,
+output;
+
+set a %B0010010111011110,
+set b %B0001100100110001,
+eval,
+output;
+
+set a %B0000101001010100,
+set b %B0000111001100011,
+eval,
+output;
+
+set a %B0001100111100111,
+set b %B0010011001110010,
+eval,
+output;
+
+set a %B0000101100111000,
+set b %B0000011111100000,
+eval,
+output;
+
+set a %B0001011011010011,
+set b %B0001111101010001,
+eval,
+output;
+
+set a %B0001001000000000,
+set b %B0010001111110101,
+eval,
+output;
+
+set a %B0001001100101110,
+set b %B0000100011000110,
+eval,
+output;
+
+set a %B0000110100001111,
+set b %B0000101111110100,
+eval,
+output;
+
+set a %B0001100101100010,
+set b %B0010011010010010,
+eval,
+output;
+
+set a %B0001101100011001,
+set b %B0000111001000111,
+eval,
+output;
+
+set a %B0000111000110100,
+set b %B0001111101111110,
+eval,
+output;
+
+set a %B0000101111110101,
+set b %B0001010001010111,
+eval,
+output;
+
+set a %B0000011111010000,
+set b %B0000011011001111,
+eval,
+output;
+
+set a %B0001101100000011,
+set b %B0000111000000011,
+eval,
+output;
+
+set a %B0010000100101100,
+set b %B0000101100011100,
+eval,
+output;
+
+set a %B0010001101000000,
+set b %B0001110011001111,
+eval,
+output;
+
+set a %B0000010000111011,
+set b %B0001101111110111,
+eval,
+output;
+
+set a %B0000111010000100,
+set b %B0001111010100001,
+eval,
+output;
+
+set a %B0000011101101001,
+set b %B0000100100010100,
+eval,
+output;
+
+set a %B0001010000110100,
+set b %B0000100101110000,
+eval,
+output;
+
+set a %B0010010100111110,
+set b %B0000010010000110,
+eval,
+output;
+
+set a %B0001000000110100,
+set b %B0000110001010111,
+eval,
+output;
+
+set a %B0001110011101001,
+set b %B0000111101010100,
+eval,
+output;
+
+set a %B0001011110101000,
+set b %B0001011010110111,
+eval,
+output;
+
+set a %B0001100111011100,
+set b %B0000100111101000,
+eval,
+output;
+
+set a %B0010000111010001,
+set b %B0001010011000011,
+eval,
+output;
+
+set a %B0001000111001001,
+set b %B0001000111000000,
+eval,
+output;
+
+set a %B0001011000000001,
+set b %B0000100010011100,
+eval,
+output;
+
+set a %B0001110000111010,
+set b %B0001101011011100,
+eval,
+output;
+
+set a %B0001001100100101,
+set b %B0001111000001011,
+eval,
+output;
+
+set a %B0010010011101000,
+set b %B0001111111100111,
+eval,
+output;
+
+set a %B0001010010110000,
+set b %B0001100111101111,
+eval,
+output;
+
+set a %B0010001001000001,
+set b %B0010010011101100,
+eval,
+output;
+
+set a %B0000010100110010,
+set b %B0000100100110100,
+eval,
+output;
+
+set a %B0001011001111000,
+set b %B0001000111010001,
+eval,
+output;
+
+set a %B0001001110011000,
+set b %B0001011111110101,
+eval,
+output;
+
+set a %B0000010100110110,
+set b %B0001000101111001,
+eval,
+output;
+
+set a %B0000100110000010,
+set b %B0010010110100100,
+eval,
+output;
+
+set a %B0000100011010010,
+set b %B0001000010011001,
+eval,
+output;
+
+set a %B0010010110101100,
+set b %B0001110111100100,
+eval,
+output;
+
+set a %B0000111101001001,
+set b %B0010010010111110,
+eval,
+output;
+
+set a %B0001100000001110,
+set b %B0000011111101101,
+eval,
+output;
+
+set a %B0000010101111011,
+set b %B0010000001010101,
+eval,
+output;
+
+set a %B0001001011110101,
+set b %B0001111000101100,
+eval,
+output;
+
+set a %B0010010101010000,
+set b %B0000011011100000,
+eval,
+output;
+
+set a %B0001000011000010,
+set b %B0001101110001101,
+eval,
+output;
+
+set a %B0010010001100011,
+set b %B0000011000011010,
+eval,
+output;
+
+set a %B0010010101010110,
+set b %B0001010010100011,
+eval,
+output;
+
+set a %B0010000111000000,
+set b %B0000101111010010,
+eval,
+output;
+
+set a %B0001100001111011,
+set b %B0010000110011001,
+eval,
+output;
+
+set a %B0001000111011110,
+set b %B0010011000100111,
+eval,
+output;
+
+set a %B0000011111011100,
+set b %B0001101000010001,
+eval,
+output;
+
+set a %B0000101101011010,
+set b %B0001001101100000,
+eval,
+output;
+
+set a %B0001011100110001,
+set b %B0010000010001101,
+eval,
+output;
+
+set a %B0001100010011111,
+set b %B0010000100010111,
+eval,
+output;
+
+set a %B0000011000111000,
+set b %B0001111011001111,
+eval,
+output;
+
+set a %B0001011110011110,
+set b %B0001010110010101,
+eval,
+output;
+
+set a %B0001100110100101,
+set b %B0010001011111100,
+eval,
+output;
+
+set a %B0000100010000001,
+set b %B0010000101010101,
+eval,
+output;
+
+set a %B0000010111011011,
+set b %B0001100110100010,
+eval,
+output;
+
+set a %B0010001010111011,
+set b %B0000111000101001,
+eval,
+output;
+
+set a %B0001010011110110,
+set b %B0000111111111001,
+eval,
+output;
+
+set a %B0001010110101010,
+set b %B0001110111001110,
+eval,
+output;
+
+set a %B0001000000001000,
+set b %B0000011101001100,
+eval,
+output;
+
+set a %B0000100101001010,
+set b %B0000111101101000,
+eval,
+output;
+
+set a %B0000100110001110,
+set b %B0001011001100000,
+eval,
+output;
+
+set a %B0000101010010001,
+set b %B0001100001010110,
+eval,
+output;
+
+set a %B0010000100101110,
+set b %B0010001001110010,
+eval,
+output;
+
+set a %B0000101011101111,
+set b %B0000101101000111,
+eval,
+output;
+
+set a %B0001011110110011,
+set b %B0010000111100001,
+eval,
+output;
+
+set a %B0000110000001110,
+set b %B0001111101111001,
+eval,
+output;
+
+set a %B0001100101011110,
+set b %B0010000110000100,
+eval,
+output;
+
+set a %B0001100110110101,
+set b %B0010001000001011,
+eval,
+output;
+
+set a %B0001011100010111,
+set b %B0001100010001111,
+eval,
+output;
+
+set a %B0000010000000011,
+set b %B0000111110011100,
+eval,
+output;
+
+set a %B0010000000011001,
+set b %B0001101000000100,
+eval,
+output;
+
+set a %B0001011011010000,
+set b %B0001100111000000,
+eval,
+output;
+
+set a %B0001011100010010,
+set b %B0001011001111100,
+eval,
+output;
+
+set a %B0001000011110001,
+set b %B0000010000101110,
+eval,
+output;
+
+set a %B0001011101011010,
+set b %B0000101101010111,
+eval,
+output;
+
+set a %B0001110010010111,
+set b %B0000010110111010,
+eval,
+output;
+
+set a %B0000111100010101,
+set b %B0001110011100010,
+eval,
+output;
+
+set a %B0010011010100110,
+set b %B0001001000110100,
+eval,
+output;
+
+set a %B0000101000000101,
+set b %B0010010011100011,
+eval,
+output;
+
+set a %B0001001011111000,
+set b %B0000110100100100,
+eval,
+output;
+
+set a %B0010000001101100,
+set b %B0001000010100010,
+eval,
+output;
+
+set a %B0001101110111101,
+set b %B0010011011111111,
+eval,
+output;
+
+set a %B0001111011010100,
+set b %B0001101101010010,
+eval,
+output;
+
+set a %B0000011111000110,
+set b %B0001010000010001,
+eval,
+output;
+
+set a %B0000010010111000,
+set b %B0001111000110011,
+eval,
+output;
+
+set a %B0010010000010010,
+set b %B0001110111111010,
+eval,
+output;
+
+set a %B0000011100101101,
+set b %B0001011000011011,
+eval,
+output;
+
+set a %B0000101010001010,
+set b %B0000011001001111,
+eval,
+output;
+
+set a %B0001100000111011,
+set b %B0000011101000001,
+eval,
+output;
+
+set a %B0001010111101011,
+set b %B0001110100111010,
+eval,
+output;
+
+set a %B0001110100110011,
+set b %B0001010111100111,
+eval,
+output;
+
+set a %B0001000100011011,
+set b %B0000110101011001,
+eval,
+output;
+
+set a %B0001100001111000,
+set b %B0001001100100101,
+eval,
+output;
+
+set a %B0001011110011111,
+set b %B0001000000111000,
+eval,
+output;
+
+set a %B0001101100011010,
+set b %B0001111011101011,
+eval,
+output;
+
+set a %B0001101001110010,
+set b %B0001101111101011,
+eval,
+output;
+
+set a %B0000111010001000,
+set b %B0010001000011011,
+eval,
+output;
+
+set a %B0000110110111111,
+set b %B0001101101101011,
+eval,
+output;
+
+set a %B0010000010000100,
+set b %B0001011011010100,
+eval,
+output;
+
+set a %B0001000001101100,
+set b %B0000101001011000,
+eval,
+output;
+
+set a %B0001001111011101,
+set b %B0010000101000010,
+eval,
+output;
+
+set a %B0000011011010110,
+set b %B0000011001111000,
+eval,
+output;
+
+set a %B0010011001111010,
+set b %B0001111100101001,
+eval,
+output;
+
+set a %B0001011001000100,
+set b %B0001011001010111,
+eval,
+output;
+
+set a %B0001001011011101,
+set b %B0001000011001011,
+eval,
+output;
+
+set a %B0000110000011100,
+set b %B0010011001001110,
+eval,
+output;
+
+set a %B0001010011010101,
+set b %B0001000100111011,
+eval,
+output;
+
+set a %B0001000100110000,
+set b %B0000110111101111,
+eval,
+output;
+
+set a %B0001010001010100,
+set b %B0000111000000110,
+eval,
+output;
+
+set a %B0000110011010100,
+set b %B0000100010101111,
+eval,
+output;
+
+set a %B0010010111100100,
+set b %B0010001001111001,
+eval,
+output;
+
+set a %B0001011101010011,
+set b %B0001010001111000,
+eval,
+output;
+
+set a %B0001011101011100,
+set b %B0010000101110010,
+eval,
+output;
+
+set a %B0001110111101011,
+set b %B0001101001010010,
+eval,
+output;
+
+set a %B0000111010101101,
+set b %B0001001011111100,
+eval,
+output;
+
+set a %B0000010011101111,
+set b %B0001100011100001,
+eval,
+output;
+
+set a %B0001000100010011,
+set b %B0000011000011110,
+eval,
+output;
+
+set a %B0010001011110101,
+set b %B0001101011110011,
+eval,
+output;
+
+set a %B0001010101111000,
+set b %B0010011011110000,
+eval,
+output;
+
+set a %B0010010111100111,
+set b %B0001001101001010,
+eval,
+output;
+
+set a %B0001110011001010,
+set b %B0001010010000110,
+eval,
+output;
+
+set a %B0010000111010111,
+set b %B0001111010010110,
+eval,
+output;
+
+set a %B0001100001101000,
+set b %B0000110111101100,
+eval,
+output;
+
+set a %B0000111101101111,
+set b %B0010000101001010,
+eval,
+output;
+
+set a %B0010011010000001,
+set b %B0010000100001011,
+eval,
+output;
+
+set a %B0010001011010110,
+set b %B0001011111011011,
+eval,
+output;
+
+set a %B0001001001001110,
+set b %B0000100000001101,
+eval,
+output;
+
+set a %B0001111010000011,
+set b %B0001010001010000,
+eval,
+output;
+
+set a %B0000111011100011,
+set b %B0001001010000110,
+eval,
+output;
+
+set a %B0001100011110000,
+set b %B0001100111111011,
+eval,
+output;
+
+set a %B0001111000101001,
+set b %B0000101010010101,
+eval,
+output;
+
+set a %B0000010101111111,
+set b %B0010001110101011,
+eval,
+output;
+
+set a %B0000011111110100,
+set b %B0001010001101101,
+eval,
+output;
+
+set a %B0000110110011110,
+set b %B0000010000010000,
+eval,
+output;
+
+set a %B0000010101110110,
+set b %B0010010100110001,
+eval,
+output;
+
+set a %B0001101001111000,
+set b %B0001011101010101,
+eval,
+output;
+
+set a %B0010001000111100,
+set b %B0010011001000010,
+eval,
+output;
+
+set a %B0010001100010000,
+set b %B0010010100010111,
+eval,
+output;
+
+set a %B0001011000101110,
+set b %B0010011100000101,
+eval,
+output;
+
+set a %B0001001111010010,
+set b %B0001000000100101,
+eval,
+output;
+
+set a %B0010001001001101,
+set b %B0001010100100011,
+eval,
+output;
+
+set a %B0010011011111011,
+set b %B0000100010010011,
+eval,
+output;
+
+set a %B0010000111100010,
+set b %B0001001000000001,
+eval,
+output;
+
+set a %B0010000001110110,
+set b %B0001010010000011,
+eval,
+output;
+
+set a %B0000011010100100,
+set b %B0000010001010110,
+eval,
+output;
+
+set a %B0001011100100010,
+set b %B0010011010100000,
+eval,
+output;
+
+set a %B0000110110010110,
+set b %B0010010011110110,
+eval,
+output;
+
+set a %B0000011011111111,
+set b %B0010001001100100,
+eval,
+output;
+
+set a %B0000101001111110,
+set b %B0010011011011101,
+eval,
+output;
+
+set a %B0001001100001100,
+set b %B0001101101110101,
+eval,
+output;
+
+set a %B0010011000010001,
+set b %B0010010101000100,
+eval,
+output;
+
+set a %B0010000011100110,
+set b %B0001010001010001,
+eval,
+output;
+
+set a %B0001100110110011,
+set b %B0001011101000100,
+eval,
+output;
+
+set a %B0010000111010110,
+set b %B0010011011101111,
+eval,
+output;
+
+set a %B0001011000010011,
+set b %B0001001011110100,
+eval,
+output;
+
+set a %B0010011000011100,
+set b %B0010001110001000,
+eval,
+output;
+
+set a %B0010010001111001,
+set b %B0010000010110111,
+eval,
+output;
+
+set a %B0000111110010011,
+set b %B0000101000110011,
+eval,
+output;
+
+set a %B0001001110001011,
+set b %B0001101000000110,
+eval,
+output;
+
+set a %B0001110001011100,
+set b %B0000100011101100,
+eval,
+output;
+
+set a %B0001100010110111,
+set b %B0010010111100111,
+eval,
+output;
+
+set a %B0010000101001111,
+set b %B0010011010100000,
+eval,
+output;
+
+set a %B0010001110011100,
+set b %B0001011011010110,
+eval,
+output;
+
+set a %B0001100101111110,
+set b %B0001111100111110,
+eval,
+output;
+
+set a %B0000101110000101,
+set b %B0001010111010000,
+eval,
+output;
+
+set a %B0000110100100001,
+set b %B0001001011100000,
+eval,
+output;
+
+set a %B0000110000010101,
+set b %B0010001110011110,
+eval,
+output;
+
+set a %B0001010111000011,
+set b %B0001100100111000,
+eval,
+output;
+
+set a %B0000011100110000,
+set b %B0010011010011101,
+eval,
+output;
+
+set a %B0000110010100001,
+set b %B0000100011101110,
+eval,
+output;
+
+set a %B0001110110111001,
+set b %B0001000100000110,
+eval,
+output;
+
+set a %B0001001110100010,
+set b %B0000111111001111,
+eval,
+output;
+
+set a %B0010000101101110,
+set b %B0001010110111111,
+eval,
+output;
+
+set a %B0000111111001111,
+set b %B0000011000011110,
+eval,
+output;
+
+set a %B0001001101000010,
+set b %B0000110000110010,
+eval,
+output;
+
+set a %B0001000010000001,
+set b %B0001100100000101,
+eval,
+output;
+
+set a %B0000010000101101,
+set b %B0001100011101000,
+eval,
+output;
+
+set a %B0000010110000011,
+set b %B0001001011110101,
+eval,
+output;
+
+set a %B0010001100110101,
+set b %B0001100001011000,
+eval,
+output;
+
+set a %B0001100100001000,
+set b %B0000101011011100,
+eval,
+output;
+
+set a %B0000010010000101,
+set b %B0001100001010000,
+eval,
+output;
+
+set a %B0001011101010001,
+set b %B0001011001110010,
+eval,
+output;
+
+set a %B0001110110010100,
+set b %B0000010101000111,
+eval,
+output;
+
+set a %B0001001101111010,
+set b %B0001001100110110,
+eval,
+output;
+
+set a %B0001111001011000,
+set b %B0000010011010010,
+eval,
+output;
+
+set a %B0001010101111000,
+set b %B0001110100001100,
+eval,
+output;
+
+set a %B0001011010010010,
+set b %B0010000111011110,
+eval,
+output;
+
+set a %B0001110010110001,
+set b %B0000111001001000,
+eval,
+output;
+
+set a %B0000101110001011,
+set b %B0001001111100011,
+eval,
+output;
+
+set a %B0001000011111000,
+set b %B0001111010010000,
+eval,
+output;
+
+set a %B0000111100010011,
+set b %B0001101111111110,
+eval,
+output;
+
+set a %B0000010110000101,
+set b %B0001100111111010,
+eval,
+output;
+
+set a %B0000011011000011,
+set b %B0000010100011100,
+eval,
+output;
+
+set a %B0001110001101001,
+set b %B0001110100100011,
+eval,
+output;
+
+set a %B0001101010010011,
+set b %B0001110011011111,
+eval,
+output;
+
+set a %B0010000000010011,
+set b %B0000111111010111,
+eval,
+output;
+
+set a %B0000100100100100,
+set b %B0001011010001101,
+eval,
+output;
+
+set a %B0010011001000100,
+set b %B0000111011111011,
+eval,
+output;
+
+set a %B0001001101011000,
+set b %B0001010001011110,
+eval,
+output;
+
+set a %B0010001000110110,
+set b %B0001000011011011,
+eval,
+output;
+
+set a %B0000100100000000,
+set b %B0000110100011111,
+eval,
+output;
+
+set a %B0001000001011110,
+set b %B0010010110000011,
+eval,
+output;
+
+set a %B0000110101010011,
+set b %B0000111001100001,
+eval,
+output;
+
+set a %B0000010011110100,
+set b %B0000100111100000,
+eval,
+output;
+
+set a %B0001000001011011,
+set b %B0001100111010100,
+eval,
+output;
+
+set a %B0010001001001000,
+set b %B0000101110010010,
+eval,
+output;
+
+set a %B0001011100111110,
+set b %B0001000110101111,
+eval,
+output;
+
+set a %B0001010111111111,
+set b %B0000110000110001,
+eval,
+output;
+
+set a %B0001001000100101,
+set b %B0001001111000110,
+eval,
+output;
+
+set a %B0000100100011001,
+set b %B0000110001101000,
+eval,
+output;
+
+set a %B0001101111000011,
+set b %B0001001011101011,
+eval,
+output;
+
+set a %B0001101011001111,
+set b %B0010000111000111,
+eval,
+output;
+
+set a %B0001011010101000,
+set b %B0001010110011110,
+eval,
+output;
+
+set a %B0001111010100011,
+set b %B0000100010101000,
+eval,
+output;
+
+set a %B0000010000111100,
+set b %B0001110000011100,
+eval,
+output;
+
+set a %B0001001111110110,
+set b %B0001001101010001,
+eval,
+output;
+
+set a %B0000110000111001,
+set b %B0010000001011010,
+eval,
+output;
+
+set a %B0001001001110000,
+set b %B0001000001010101,
+eval,
+output;
+
+set a %B0000100010010001,
+set b %B0010010011011011,
+eval,
+output;
+
+set a %B0000100110000010,
+set b %B0001011101110111,
+eval,
+output;
+
+set a %B0001110100111110,
+set b %B0000100110001011,
+eval,
+output;
+
+set a %B0001101101100011,
+set b %B0010001110011110,
+eval,
+output;
+
+set a %B0001001011001000,
+set b %B0000111001000001,
+eval,
+output;
+
+set a %B0010011010110011,
+set b %B0000100100111011,
+eval,
+output;
+
+set a %B0001000001101011,
+set b %B0010010110110111,
+eval,
+output;
+
+set a %B0000011101111111,
+set b %B0001001111011011,
+eval,
+output;
+
+set a %B0010011011001100,
+set b %B0001111011000001,
+eval,
+output;
+
+set a %B0000100011111100,
+set b %B0000101101000000,
+eval,
+output;
+
+set a %B0000011100011010,
+set b %B0010010010000000,
+eval,
+output;
+
+set a %B0001101011000100,
+set b %B0001101100110101,
+eval,
+output;
+
+set a %B0010011011100001,
+set b %B0001000011110100,
+eval,
+output;
+
+set a %B0001110001110011,
+set b %B0001000101111111,
+eval,
+output;
+
+set a %B0000011001101001,
+set b %B0001001010110111,
+eval,
+output;
+
+set a %B0001001110010101,
+set b %B0001111011010101,
+eval,
+output;
+
+set a %B0010000001100111,
+set b %B0001000011000000,
+eval,
+output;
+
+set a %B0001100010010110,
+set b %B0001100010010111,
+eval,
+output;
+
+set a %B0000101001101110,
+set b %B0001111001111010,
+eval,
+output;
+
+set a %B0010011000010000,
+set b %B0000101011101011,
+eval,
+output;
+
+set a %B0000011000010000,
+set b %B0001110000100010,
+eval,
+output;
+
+set a %B0000010000010000,
+set b %B0000101111011110,
+eval,
+output;
+
+set a %B0001111000101010,
+set b %B0001101001011111,
+eval,
+output;
+
+set a %B0000111001000111,
+set b %B0000011101111101,
+eval,
+output;
+
+set a %B0010010111010000,
+set b %B0010010101011011,
+eval,
+output;
+
+set a %B0000111100000001,
+set b %B0001110000111010,
+eval,
+output;
+
+set a %B0001111100010101,
+set b %B0001001001011111,
+eval,
+output;
+
+set a %B0010001000111111,
+set b %B0001110100001101,
+eval,
+output;
+
+set a %B0001110100110011,
+set b %B0001010001000111,
+eval,
+output;
+
+set a %B0001011001110000,
+set b %B0010011001100001,
+eval,
+output;
+
