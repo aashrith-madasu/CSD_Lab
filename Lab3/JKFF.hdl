@@ -1,0 +1,19 @@
+
+
+
+CHIP JKFF {
+    
+    IN j, k;
+    OUT q;
+
+    
+    PARTS:
+    And(a=j, b=nqq, out=w1);
+    Not(in=k, out=nk);
+    And(a=nk, b=qq, out=w2);
+    Or(a=w1, b=w2, out=w3);
+    DFF(in=w3, out=qq);
+    Not(in=qq, out=nqq);
+    And(a=true, b=qq, out=q);
+    
+}
