@@ -1,0 +1,27 @@
+
+
+
+
+CHIP Counter {
+    IN up;
+    OUT out[3];
+
+    PARTS:
+    JKFF(j=true, k=true, q=qa);
+    Not(in=qa, out=qabar);
+    And(a=true, b=qa, out=out[0]);
+    And(a=up, b=qa, out=w1);
+    Not(in=up, out=upbar);
+    And(a=qabar, b=upbar, out=w2);
+    Or(a=w1, b=w2, out=w3);
+
+    JKFF(j=w3, k=w3, q=qb);
+    Not(in=qb, out=qbbar);
+    And(a=true, b=qb, out=out[1]);
+    And(a=qb, b=w1, out=w4);
+    And(a=qbbar, b=w2, out=w5);
+    Or(a=w4, b=w5, out=w6);
+
+    JKFF(j=w6, k=w6, q=qc);
+    And(a=true, b=qc, out=out[2]);
+}
