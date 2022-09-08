@@ -1,8 +1,17 @@
+//CHIP Reg32Bit {
+    //IN in1[16], in2[16], load, shift;
+    //OUT out1[16], out2[16];
+
+    //PARTS:
+	//Reg16Bit(in=in1, load=load, shift=shift, out=out1);
+	//Reg16Bit(in=in2, load=load, shift=shift, out=out2);
+//}
+
 CHIP Reg32Bit {
-    IN in1[16], in2[16], load, shift;
-    OUT out1[16], out2[16];
+    IN in1[16], in2[16], load, shift, shiftIn;
+    OUT out1[16], out2[16], shiftOut;
 
     PARTS:
-	Reg16Bit(in=in1, load=load, shift=shift, out=out1);
-	Reg16Bit(in=in2, load=load, shift=shift, out=out2);
+	Reg16Bit(in=in1, load=load, shift=shift, shiftIn=shiftIn, out=out1, shiftOut=carry);
+	Reg16Bit(in=in2, load=load, shift=shift,shiftIn=carry, out=out2, shiftOut=shiftOut);
 }

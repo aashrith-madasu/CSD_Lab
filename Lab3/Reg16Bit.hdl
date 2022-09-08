@@ -1,11 +1,4 @@
-//CHIP Reg16Bit {
-    //IN in[16], load, shift;
-    //OUT out[16];
 
-    //PARTS:
-	//Reg8Bit(in=in[0..7], load=load, shift=shift, out=out[0..7]);
-	//Reg8Bit(in=in[8..15], load=load, shift=shift,out=out[8..15]);
-//}
 CHIP Reg16Bit {
     IN in[16], load, shift, shiftIn;
     OUT out[16], shiftOut;
