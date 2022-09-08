@@ -12,7 +12,7 @@ output;
 tock,
 output;
 
-set in 0,
+set in 333,
 set load 1,
 set shift 0,
 tick,
@@ -21,7 +21,16 @@ output;
 tock,
 output;
 
-set in -32123,
+set in 333,
+set load 0,
+set shift 1,
+tick,
+output;
+
+tock,
+output;
+
+set in 1,
 set load 0,
 set shift 0,
 tick,
@@ -30,16 +39,7 @@ output;
 tock,
 output;
 
-set in 11111,
-set load 0,
-set shift 0,
-tick,
-output;
-
-tock,
-output;
-
-set in -32123,
+set in 333,
 set load 1,
 set shift 0,
 tick,
@@ -48,7 +48,7 @@ output;
 tock,
 output;
 
-set in -32123,
+set in 333,
 set load 1,
 set shift 0,
 tick,
@@ -57,7 +57,7 @@ output;
 tock,
 output;
 
-set in -32123,
+set in 333,
 set load 0,
 set shift 0,
 tick,
@@ -66,42 +66,7 @@ output;
 tock,
 output;
 
-set in 12345,
-set load 1,
-set shift 0,
-tick,
-output;
-
-tock,
-output;
-
-set in 0,
-set load 0,
-set shift 0,
-tick,
-output;
-
-tock,
-output;
-
-set in 0,
-set load 1,
-set shift 0,
-tick,
-output;
-
-tock,
-output;
-
-set in %B0000000000000001,
-set load 0,
-set shift 0,
-tick,
-output;
-
-tock,
-output;
-
+set in 15,
 set load 1,
 set shift 0,
 tick,

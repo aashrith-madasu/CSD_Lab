@@ -1,28 +1,66 @@
+//CHIP Reg8Bit
+//{
+    //IN in[8], load, shift;
+    //OUT out[8];
+
+    //PARTS:
+	//Not(in=load, out=loadbar);
+	//And(a=loadbar, b=shift, out=t);
+
+    //Reg1Bit(in=in[0],  load=load, out=l0);
+    //Reg1Bit(in=in[1],  load=load, out=l1);
+    //Reg1Bit(in=in[2],  load=load, out=l2);
+    //Reg1Bit(in=in[3],  load=load, out=l3);
+    //Reg1Bit(in=in[4],  load=load, out=l4);
+    //Reg1Bit(in=in[5],  load=load, out=l5);
+    //Reg1Bit(in=in[6],  load=load, out=l6);
+    //Reg1Bit(in=in[7],  load=load, out=l7);
+
+
+	//Mux(a=l0, b=false, sel=t, out=out[0]);
+	//Mux(a=l1, b=l0, sel=t, out=out[1]);
+	//Mux(a=l2, b=l1, sel=t, out=out[2]);
+	//Mux(a=l3, b=l2, sel=t, out=out[3]);
+	//Mux(a=l4, b=l3, sel=t, out=out[4]);
+	//Mux(a=l5, b=l4, sel=t, out=out[5]);
+	//Mux(a=l6, b=l5, sel=t, out=out[6]);
+	//Mux(a=l7, b=l6, sel=t, out=out[7]);
+//}
+
 CHIP Reg8Bit
 {
-    IN in[8], load, shift;
-    OUT out[8];
+    IN in[8], load, shift, shiftIn;
+    OUT out[8], shiftOut;
 
     PARTS:
 	Not(in=load, out=loadbar);
-	And(a=loadbar, b=shift, out=t);
+	Not(in=shift, out=shiftbar);
+	And(a=loadbar, b=shiftbar, out=t);
+	Not(in=t, out=sel);
 
-    Reg1Bit(in=in[0],  load=load, out=l0);
-    Reg1Bit(in=in[1],  load=load, out=l1);
-    Reg1Bit(in=in[2],  load=load, out=l2);
-    Reg1Bit(in=in[3],  load=load, out=l3);
-    Reg1Bit(in=in[4],  load=load, out=l4);
-    Reg1Bit(in=in[5],  load=load, out=l5);
-    Reg1Bit(in=in[6],  load=load, out=l6);
-    Reg1Bit(in=in[7],  load=load, out=l7);
+	And(a=loadbar, b=shift,out=sor);
 
+	Mux(a=in[0],b=shiftIn, sel=sor, out=l0) ;
+    Reg1Bit(in=l0,  load=sel, out = f0, out=out[0]);
 
-	Mux(a=l0, b=false, sel=t, out=out[0]);
-	Mux(a=l1, b=l0, sel=t, out=out[1]);
-	Mux(a=l2, b=l1, sel=t, out=out[2]);
-	Mux(a=l3, b=l2, sel=t, out=out[3]);
-	Mux(a=l4, b=l3, sel=t, out=out[4]);
-	Mux(a=l5, b=l4, sel=t, out=out[5]);
-	Mux(a=l6, b=l5, sel=t, out=out[6]);
-	Mux(a=l7, b=l6, sel=t, out=out[7]);
+	Mux(a=in[1],b=f0, sel=sor, out=l1);
+    Reg1Bit(in=l1,  load=sel, out = f1, out=out[1]);
+
+	Mux(a=in[2],b=f1, sel=sor, out=l2);
+    Reg1Bit(in=l2,  load=sel, out = f2, out=out[2]);
+   
+	Mux(a=in[3],b=f2, sel=sor, out=l3);
+    Reg1Bit(in=l3,  load=sel, out = f3, out=out[3]);
+   
+	Mux(a=in[4],b=f3, sel=sor, out=l4);
+    Reg1Bit(in=l4,  load=sel, out = f4, out=out[4]);
+   
+	Mux(a=in[5],b=f4, sel=sor, out=l5);
+    Reg1Bit(in=l5,  load=sel, out = f5, out=out[5]);
+   
+	Mux(a=in[6],b=f5, sel=sor, out=l6);
+    Reg1Bit(in=l6,  load=sel, out = f6, out=out[6]);
+  
+  	Mux(a=in[7],b=f6, sel=sor, out=l7);
+    Reg1Bit(in=l7,  load=sel, out = shiftOut, out=out[7]);
 }

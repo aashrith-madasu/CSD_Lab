@@ -12,7 +12,7 @@ output;
 tock,
 output;
 
-set in 0,
+set in 33,
 set load 1,
 set shift 0,
 tick,
@@ -23,7 +23,7 @@ output;
 
 set in 33,
 set load 0,
-set shift 0,
+set shift 1,
 tick,
 output;
 

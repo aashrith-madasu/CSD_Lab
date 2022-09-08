@@ -55,7 +55,6 @@ output;
 
 set up 0;
 
-
 tick;
 output;
 
