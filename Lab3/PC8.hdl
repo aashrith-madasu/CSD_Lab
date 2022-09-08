@@ -1,0 +1,19 @@
+CHIP PC8 {
+    IN in[8],load,inc0,inc1,reset;
+    OUT out[8];
+
+    PARTS:
+
+    Inc8(in=feedback, out=incout1);
+	Add8(a[1]=true,b=feedback, out=incout2);
+	Add8(a[0]=true, a[1]=true,b=feedback, out=incout3);
+
+	Mux8(a=feedback, b=incout1, sel=inc0, out=out1);
+	Mux8(a=incout2, b=incout3, sel=inc0, out=out2);
+	Mux8(a=out1, b=out2, sel=inc1, out=m);
+
+    Mux8(a=m, b=in, sel=load, out=m2);
+    Mux8(a=m2, b=false, sel=reset, out=m3);
+
+    Reg8Bit(in=m3, load=true, out=feedback, out=out);
+}

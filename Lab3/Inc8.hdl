@@ -1,0 +1,7 @@
+CHIP Inc8 {
+    IN in[8];
+    OUT out[8];
+
+    PARTS:
+    Add8(a[0]=true, b=in, out=out);
+}
