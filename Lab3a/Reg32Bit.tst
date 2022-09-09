@@ -82,3 +82,13 @@ output;
 
 tock,
 output;
+
+set in1 16,
+set in2 16,
+set load 1,
+set shift 1,
+tick,
+output;
+
+tock,
+output;

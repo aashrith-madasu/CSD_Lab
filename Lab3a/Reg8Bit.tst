@@ -74,3 +74,12 @@ output;
 
 tock,
 output;
+
+set in 16,
+set load 1,
+set shift 1,
+tick,
+output;
+
+tock,
+output;
