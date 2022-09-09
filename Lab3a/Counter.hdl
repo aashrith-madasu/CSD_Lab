@@ -7,61 +7,53 @@ CHIP Counter {
     OUT out[8];
 
     PARTS:
-    JKFF(j=true, k=true, q=qa);
+    JKFF(j=true, k=true, q=qa, q=out[0]);
     Not(in=qa, out=qabar);
-    And(a=true, b=qa, out=out[0]);
     And(a=up, b=qa, out=w1);
     Not(in=up, out=upbar);
     And(a=qabar, b=upbar, out=w2);
     Or(a=w1, b=w2, out=w3);
 
-    JKFF(j=w3, k=w3, q=qb);
+    JKFF(j=w3, k=w3, q=qb, q=out[1]);
     Not(in=qb, out=qbbar);
-    And(a=true, b=qb, out=out[1]);
     And(a=qb, b=w1, out=w4);
     And(a=qbbar, b=w2, out=w5);
     Or(a=w4, b=w5, out=w6);
 
 
 
-    JKFF(j=w6, k=w6, q=qc);
+    JKFF(j=w6, k=w6, q=qc, q=out[2]);
     Not(in=qc, out=qcbar);
-    And(a=true, b=qc, out=out[2]);
     And(a=qc, b=w4, out=w7);
     And(a=qcbar, b=w5, out=w8);
     Or(a=w7, b=w8, out=w9);
     
-    JKFF(j=w9, k=w9, q=qd);
+    JKFF(j=w9, k=w9, q=qd, q=out[3]);
     Not(in=qd, out=qdbar);
-    And(a=true, b=qd, out=out[3]);
     And(a=qd, b=w7, out=w10);
     And(a=qdbar, b=w8, out=w11);
     Or(a=w10, b=w11, out=w12);
     
-    JKFF(j=w12, k=w12, q=qe);
+    JKFF(j=w12, k=w12, q=qe, q=out[4]);
     Not(in=qe, out=qebar);
-    And(a=true, b=qe, out=out[4]);
     And(a=qe, b=w10, out=w13);
     And(a=qebar, b=w11, out=w14);
     Or(a=w13, b=w14, out=w15);
 
-    JKFF(j=w15, k=w15, q=qf);
+    JKFF(j=w15, k=w15, q=qf, q=out[5]);
     Not(in=qf, out=qfbar);
-    And(a=true, b=qf, out=out[5]);
     And(a=qf, b=w13, out=w16);
     And(a=qfbar, b=w14, out=w17);
     Or(a=w16, b=w17, out=w18);
     
-    JKFF(j=w18, k=w18, q=qg);
+    JKFF(j=w18, k=w18, q=qg, q=out[6]);
     Not(in=qg, out=qgbar);
-    And(a=true, b=qg, out=out[6]);
     And(a=qg, b=w16, out=w19);
     And(a=qgbar, b=w17, out=w20);
     Or(a=w19, b=w20, out=w21);
 
-    JKFF(j=w21, k=w21, q=qh);
+    JKFF(j=w21, k=w21, q=qh, q=out[7]);
     Not(in=qh, out=qhbar);
-    And(a=true, b=qh, out=out[7]);
     And(a=qh, b=w19, out=w22);
     And(a=qhbar, b=w20, out=w23);
     Or(a=w22, b=w23, out=w24);

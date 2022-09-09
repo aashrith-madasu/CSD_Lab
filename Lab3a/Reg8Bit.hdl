@@ -1,31 +1,3 @@
-//CHIP Reg8Bit
-//{
-    //IN in[8], load, shift;
-    //OUT out[8];
-
-    //PARTS:
-	//Not(in=load, out=loadbar);
-	//And(a=loadbar, b=shift, out=t);
-
-    //Reg1Bit(in=in[0],  load=load, out=l0);
-    //Reg1Bit(in=in[1],  load=load, out=l1);
-    //Reg1Bit(in=in[2],  load=load, out=l2);
-    //Reg1Bit(in=in[3],  load=load, out=l3);
-    //Reg1Bit(in=in[4],  load=load, out=l4);
-    //Reg1Bit(in=in[5],  load=load, out=l5);
-    //Reg1Bit(in=in[6],  load=load, out=l6);
-    //Reg1Bit(in=in[7],  load=load, out=l7);
-
-
-	//Mux(a=l0, b=false, sel=t, out=out[0]);
-	//Mux(a=l1, b=l0, sel=t, out=out[1]);
-	//Mux(a=l2, b=l1, sel=t, out=out[2]);
-	//Mux(a=l3, b=l2, sel=t, out=out[3]);
-	//Mux(a=l4, b=l3, sel=t, out=out[4]);
-	//Mux(a=l5, b=l4, sel=t, out=out[5]);
-	//Mux(a=l6, b=l5, sel=t, out=out[6]);
-	//Mux(a=l7, b=l6, sel=t, out=out[7]);
-//}
 
 CHIP Reg8Bit
 {

@@ -5,5 +5,4 @@ CHIP Reg1Bit {
     PARTS:
     Mux(a=feedback, b=in, sel=load, out=mux);
     DFF(in=mux, out=feedback, out=out);
-    //And(a=true, b=feedback, out=out);
 }
