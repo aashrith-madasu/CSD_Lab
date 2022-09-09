@@ -1,3 +1,4 @@
+# Lab 2
 ## Organisation of the code
 * One can find all the files related to a component in a sub folder with the component name. For example, ```/Add16``` contains files ```Add16.hdl, Add16.cmp, Add16.tst, Add16.py, Add16.out```.
 * The ```.py``` file is used to generate **random** testcases for a component. For example, ```Add16.py``` is used to generate ```Add16.tst``` and ```Add16.cmp``` which are used to test ```Add16.hdl``` in **Nand2Tetris** simulator.
