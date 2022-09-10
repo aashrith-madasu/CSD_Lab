@@ -13,6 +13,9 @@
    ```
    Generates a test case with "num_op" number of operations. Each operation can be a read/write which is choosen randomly. In write operation, the **in** input is choosen randomly as well.
 
+
+* **NOTE:** Ensure that the "num_op" is less than 1000 operations. This constraint is because of some formatting issues in the .cmp file.
+
 ## Report
 Here is the link to the report :  https://docs.google.com/document/d/1hBYTU5VaMvdt58smAtI891O0P1pA1AHugNoFQTLdzNY/edit?usp=sharing
 
