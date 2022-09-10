@@ -1,0 +1,22 @@
+
+// Reuse 8 RAM8 components
+
+CHIP RAM64 {
+    IN address[6], load, in[16];
+    OUT out[16];
+
+    PARTS:
+
+    DMux8Way(in=load, sel=address[0..2], a=l0, b=l1, c=l2, d=l3, e=l4, f=l5, g=l6, h=l7);
+
+    RAM8(address=address[3..5], load=l0, in=in, out=r0);
+    RAM8(address=address[3..5], load=l1, in=in, out=r1);
+    RAM8(address=address[3..5], load=l2, in=in, out=r2);
+    RAM8(address=address[3..5], load=l3, in=in, out=r3);
+    RAM8(address=address[3..5], load=l4, in=in, out=r4);
+    RAM8(address=address[3..5], load=l5, in=in, out=r5);
+    RAM8(address=address[3..5], load=l6, in=in, out=r6);
+    RAM8(address=address[3..5], load=l7, in=in, out=r7);
+
+    Mux8Way16(a=r0, b=r1, c=r2, d=r3, e=r4, f=r5, g=r6, h=r7, sel=address[0..2], out=out);
+}

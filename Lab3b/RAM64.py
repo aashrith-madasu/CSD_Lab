@@ -3,7 +3,7 @@ import sys
 
 def gen_test_case(ram):
 
-    addr = random.randint(0, 7)
+    addr = random.randint(0, 63)
     load = random.choice([0, 1])
 
     inp, out1, out2 = [None]*3
@@ -24,10 +24,10 @@ def gen_test_case(ram):
 
 def gen_test_bench(num_op):
 
-    test = "load RAM8.hdl,\noutput-file RAM8.out,\ncompare-to RAM8.cmp,\noutput-list time%S1.4.1 address%D7.1.1 load%B4.1.1 in%D1.5.1 out%D1.5.1;\n\n"
+    test = "load RAM64.hdl,\noutput-file RAM64.out,\ncompare-to RAM64.cmp,\noutput-list time%S1.4.1 address%D6.2.1 load%B4.1.1 in%D1.5.1 out%D1.5.1;\n\n"
     cmp = "| time | address | load |  in   |  out  |\n"
 
-    ram = [0]*8
+    ram = [0]*64
     clock = 0
     inp = 0
 
@@ -43,15 +43,15 @@ def gen_test_bench(num_op):
         
         test += f"tick,\noutput;\n\ntock,\noutput;\n"
 
-        cmp += f"| {clock}+{' '*int(clock<10)}{' '*int(clock<100)} |       {addr} |    {load} | {' '*int(inp<10000)}{' '*int(inp<1000)}{' '*int(inp<100)}{' '*int(inp<10)}{inp} | {' '*int(out1<10000)}{' '*int(out1<1000)}{' '*int(out1<100)}{' '*int(out1<10)}{out1} |\n"
+        cmp += f"| {clock}+{' '*int(clock<10)}{' '*int(clock<100)} |      {' '*int(addr<10)}{addr} |    {load} | {' '*int(inp<10000)}{' '*int(inp<1000)}{' '*int(inp<100)}{' '*int(inp<10)}{inp} | {' '*int(out1<10000)}{' '*int(out1<1000)}{' '*int(out1<100)}{' '*int(out1<10)}{out1} |\n"
         clock += 1
-        cmp += f"| {clock} {' '*int(clock<10)}{' '*int(clock<100)} |       {addr} |    {load} | {' '*int(inp<10000)}{' '*int(inp<1000)}{' '*int(inp<100)}{' '*int(inp<10)}{inp} | {' '*int(out2<10000)}{' '*int(out2<1000)}{' '*int(out2<100)}{' '*int(out2<10)}{out2} |\n"
+        cmp += f"| {clock} {' '*int(clock<10)}{' '*int(clock<100)} |      {' '*int(addr<10)}{addr} |    {load} | {' '*int(inp<10000)}{' '*int(inp<1000)}{' '*int(inp<100)}{' '*int(inp<10)}{inp} | {' '*int(out2<10000)}{' '*int(out2<1000)}{' '*int(out2<100)}{' '*int(out2<10)}{out2} |\n"
 
 
-    with open("./RAM8.tst", "w+") as f:
+    with open("./RAM64.tst", "w+") as f:
         f.write(test)
 
-    with open("./RAM8.cmp", "w+") as f:
+    with open("./RAM64.cmp", "w+") as f:
         f.write(cmp)
 
 
