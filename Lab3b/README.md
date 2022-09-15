@@ -6,7 +6,7 @@
 
 
 ## Scripts
-* **RAM8.py**
+* **RAM8.py, RAM64.py, RAM512.py, RAM4k.py, RAM16k.py, RAM32k.py, RAM64k.py**
    
    ```
    python3 RAM8.py <num_op>
