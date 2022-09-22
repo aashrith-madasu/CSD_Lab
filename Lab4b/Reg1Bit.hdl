@@ -1,0 +1,8 @@
+CHIP Reg1Bit {
+    IN in, load;
+    OUT out;
+
+    PARTS:
+    Mux(a=feedback, b=in, sel=load, out=mux);
+    DFF(in=mux, out=feedback, out=out);
+}

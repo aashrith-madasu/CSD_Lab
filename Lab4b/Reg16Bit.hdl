@@ -1,0 +1,9 @@
+
+CHIP Reg16Bit {
+    IN in[16], load, shift, shiftIn;
+    OUT out[16], shiftOut;
+
+    PARTS:
+	Reg8Bit(in=in[0..7], load=load, shift=shift, shiftIn=shiftIn, out=out[0..7], shiftOut=carry);
+	Reg8Bit(in=in[8..15], load=load, shift=shift,shiftIn=carry, out=out[8..15], shiftOut=shiftOut);
+}

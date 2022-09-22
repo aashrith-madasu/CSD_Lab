@@ -1,0 +1,29 @@
+
+
+CHIP Comparator16 {
+    IN in[16];
+    OUT negative, zero;
+
+    PARTS:
+    Not16(in=in, out[0]=neg0, out[1]=neg1, out[2]=neg2, out[3]=neg3, out[4]=neg4, out[5]=neg5, out[6]=neg6, out[7]=neg7, out[8]=neg8, out[9]=neg9, out[10]=neg10, out[11]=neg11, out[12]=neg12, out[13]=neg13, out[14]=neg14, out[15]=neg15);
+    And(a=neg0,  b=neg1,  out=c1);
+    And(a=neg2,  b=neg3,  out=c2);
+    And(a=neg4,  b=neg5,  out=c3);
+    And(a=neg6,  b=neg7,  out=c4);
+    And(a=neg8,  b=neg9,  out=c5);
+    And(a=neg10, b=neg11, out=c6);
+    And(a=neg12, b=neg13, out=c7);
+    And(a=neg14, b=neg15, out=c8);
+
+    And(a=c1,  b=c2,  out=c9);
+    And(a=c3,  b=c4,  out=c10);
+    And(a=c5,  b=c6,  out=c11);
+    And(a=c7,  b=c8,  out=c12);
+
+    And(a=c9,  b=c10, out=c13);
+    And(a=c11, b=c12, out=c14);
+    
+    And(a=c13, b=c14, out=zero);
+    
+    And(a=in[15], b=true, out=negative);
+}
