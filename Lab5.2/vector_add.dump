@@ -1,0 +1,106 @@
+
+vector_add.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <vector_add>:
+   0:	f3 0f 1e fa          	endbr64 
+   4:	55                   	push   %rbp
+   5:	48 89 e5             	mov    %rsp,%rbp
+   8:	53                   	push   %rbx
+   9:	48 83 ec 38          	sub    $0x38,%rsp
+   d:	48 89 7d c8          	mov    %rdi,-0x38(%rbp)
+  11:	48 89 75 c0          	mov    %rsi,-0x40(%rbp)
+  15:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+  1c:	00 00 
+  1e:	48 89 45 e8          	mov    %rax,-0x18(%rbp)
+  22:	31 c0                	xor    %eax,%eax
+  24:	48 89 e0             	mov    %rsp,%rax
+  27:	48 89 c7             	mov    %rax,%rdi
+  2a:	c7 45 d4 02 00 00 00 	movl   $0x2,-0x2c(%rbp)
+  31:	8b 45 d4             	mov    -0x2c(%rbp),%eax
+  34:	48 63 d0             	movslq %eax,%rdx
+  37:	48 83 ea 01          	sub    $0x1,%rdx
+  3b:	48 89 55 d8          	mov    %rdx,-0x28(%rbp)
+  3f:	48 63 d0             	movslq %eax,%rdx
+  42:	49 89 d0             	mov    %rdx,%r8
+  45:	41 b9 00 00 00 00    	mov    $0x0,%r9d
+  4b:	48 63 d0             	movslq %eax,%rdx
+  4e:	48 89 d1             	mov    %rdx,%rcx
+  51:	bb 00 00 00 00       	mov    $0x0,%ebx
+  56:	48 98                	cltq   
+  58:	48 8d 14 85 00 00 00 	lea    0x0(,%rax,4),%rdx
+  5f:	00 
+  60:	b8 10 00 00 00       	mov    $0x10,%eax
+  65:	48 83 e8 01          	sub    $0x1,%rax
+  69:	48 01 d0             	add    %rdx,%rax
+  6c:	bb 10 00 00 00       	mov    $0x10,%ebx
+  71:	ba 00 00 00 00       	mov    $0x0,%edx
+  76:	48 f7 f3             	div    %rbx
+  79:	48 6b c0 10          	imul   $0x10,%rax,%rax
+  7d:	48 89 c2             	mov    %rax,%rdx
+  80:	48 81 e2 00 f0 ff ff 	and    $0xfffffffffffff000,%rdx
+  87:	48 89 e3             	mov    %rsp,%rbx
+  8a:	48 29 d3             	sub    %rdx,%rbx
+  8d:	48 89 da             	mov    %rbx,%rdx
+  90:	48 39 d4             	cmp    %rdx,%rsp
+  93:	74 12                	je     a7 <vector_add+0xa7>
+  95:	48 81 ec 00 10 00 00 	sub    $0x1000,%rsp
+  9c:	48 83 8c 24 f8 0f 00 	orq    $0x0,0xff8(%rsp)
+  a3:	00 00 
+  a5:	eb e9                	jmp    90 <vector_add+0x90>
+  a7:	48 89 c2             	mov    %rax,%rdx
+  aa:	81 e2 ff 0f 00 00    	and    $0xfff,%edx
+  b0:	48 29 d4             	sub    %rdx,%rsp
+  b3:	48 89 c2             	mov    %rax,%rdx
+  b6:	81 e2 ff 0f 00 00    	and    $0xfff,%edx
+  bc:	48 85 d2             	test   %rdx,%rdx
+  bf:	74 10                	je     d1 <vector_add+0xd1>
+  c1:	25 ff 0f 00 00       	and    $0xfff,%eax
+  c6:	48 83 e8 08          	sub    $0x8,%rax
+  ca:	48 01 e0             	add    %rsp,%rax
+  cd:	48 83 08 00          	orq    $0x0,(%rax)
+  d1:	48 89 e0             	mov    %rsp,%rax
+  d4:	48 83 c0 03          	add    $0x3,%rax
+  d8:	48 c1 e8 02          	shr    $0x2,%rax
+  dc:	48 c1 e0 02          	shl    $0x2,%rax
+  e0:	48 89 45 e0          	mov    %rax,-0x20(%rbp)
+  e4:	c7 45 d0 00 00 00 00 	movl   $0x0,-0x30(%rbp)
+  eb:	eb 48                	jmp    135 <vector_add+0x135>
+  ed:	8b 45 d0             	mov    -0x30(%rbp),%eax
+  f0:	48 98                	cltq   
+  f2:	48 8d 14 85 00 00 00 	lea    0x0(,%rax,4),%rdx
+  f9:	00 
+  fa:	48 8b 45 c8          	mov    -0x38(%rbp),%rax
+  fe:	48 01 d0             	add    %rdx,%rax
+ 101:	8b 08                	mov    (%rax),%ecx
+ 103:	8b 45 d0             	mov    -0x30(%rbp),%eax
+ 106:	48 98                	cltq   
+ 108:	48 8d 14 85 00 00 00 	lea    0x0(,%rax,4),%rdx
+ 10f:	00 
+ 110:	48 8b 45 c0          	mov    -0x40(%rbp),%rax
+ 114:	48 01 d0             	add    %rdx,%rax
+ 117:	8b 10                	mov    (%rax),%edx
+ 119:	8b 45 d0             	mov    -0x30(%rbp),%eax
+ 11c:	48 98                	cltq   
+ 11e:	48 8d 34 85 00 00 00 	lea    0x0(,%rax,4),%rsi
+ 125:	00 
+ 126:	48 8b 45 c8          	mov    -0x38(%rbp),%rax
+ 12a:	48 01 f0             	add    %rsi,%rax
+ 12d:	01 ca                	add    %ecx,%edx
+ 12f:	89 10                	mov    %edx,(%rax)
+ 131:	83 45 d0 01          	addl   $0x1,-0x30(%rbp)
+ 135:	8b 45 d0             	mov    -0x30(%rbp),%eax
+ 138:	3b 45 d4             	cmp    -0x2c(%rbp),%eax
+ 13b:	7c b0                	jl     ed <vector_add+0xed>
+ 13d:	48 8b 45 c8          	mov    -0x38(%rbp),%rax
+ 141:	48 89 fc             	mov    %rdi,%rsp
+ 144:	48 8b 75 e8          	mov    -0x18(%rbp),%rsi
+ 148:	64 48 33 34 25 28 00 	xor    %fs:0x28,%rsi
+ 14f:	00 00 
+ 151:	74 05                	je     158 <vector_add+0x158>
+ 153:	e8 00 00 00 00       	callq  158 <vector_add+0x158>
+ 158:	48 8b 5d f8          	mov    -0x8(%rbp),%rbx
+ 15c:	c9                   	leaveq 
+ 15d:	c3                   	retq   

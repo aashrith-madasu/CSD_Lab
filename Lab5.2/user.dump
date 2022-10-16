@@ -1,0 +1,43 @@
+
+user.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <main>:
+   0:	f3 0f 1e fa          	endbr64 
+   4:	55                   	push   %rbp
+   5:	48 89 e5             	mov    %rsp,%rbp
+   8:	48 83 ec 30          	sub    $0x30,%rsp
+   c:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+  13:	00 00 
+  15:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+  19:	31 c0                	xor    %eax,%eax
+  1b:	c7 45 e0 01 00 00 00 	movl   $0x1,-0x20(%rbp)
+  22:	c7 45 e4 02 00 00 00 	movl   $0x2,-0x1c(%rbp)
+  29:	c7 45 e8 03 00 00 00 	movl   $0x3,-0x18(%rbp)
+  30:	c7 45 ec 01 00 00 00 	movl   $0x1,-0x14(%rbp)
+  37:	c7 45 f0 02 00 00 00 	movl   $0x2,-0x10(%rbp)
+  3e:	c7 45 f4 03 00 00 00 	movl   $0x3,-0xc(%rbp)
+  45:	48 8d 55 ec          	lea    -0x14(%rbp),%rdx
+  49:	48 8d 45 e0          	lea    -0x20(%rbp),%rax
+  4d:	48 89 d6             	mov    %rdx,%rsi
+  50:	48 89 c7             	mov    %rax,%rdi
+  53:	e8 00 00 00 00       	callq  58 <main+0x58>
+  58:	48 89 45 d8          	mov    %rax,-0x28(%rbp)
+  5c:	48 8d 55 ec          	lea    -0x14(%rbp),%rdx
+  60:	48 8d 45 e0          	lea    -0x20(%rbp),%rax
+  64:	48 89 d6             	mov    %rdx,%rsi
+  67:	48 89 c7             	mov    %rax,%rdi
+  6a:	e8 00 00 00 00       	callq  6f <main+0x6f>
+  6f:	89 45 d4             	mov    %eax,-0x2c(%rbp)
+  72:	b8 00 00 00 00       	mov    $0x0,%eax
+  77:	e8 00 00 00 00       	callq  7c <main+0x7c>
+  7c:	b8 00 00 00 00       	mov    $0x0,%eax
+  81:	48 8b 4d f8          	mov    -0x8(%rbp),%rcx
+  85:	64 48 33 0c 25 28 00 	xor    %fs:0x28,%rcx
+  8c:	00 00 
+  8e:	74 05                	je     95 <main+0x95>
+  90:	e8 00 00 00 00       	callq  95 <main+0x95>
+  95:	c9                   	leaveq 
+  96:	c3                   	retq   

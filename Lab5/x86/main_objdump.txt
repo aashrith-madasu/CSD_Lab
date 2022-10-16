@@ -1,0 +1,55 @@
+
+main.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+# min3 function here
+0000000000000000 <min3>:
+   0:	f3 0f 1e fa          	endbr64 
+   4:	55                   	push   %rbp
+   5:	48 89 e5             	mov    %rsp,%rbp
+   8:	89 7d fc             	mov    %edi,-0x4(%rbp)
+   b:	89 75 f8             	mov    %esi,-0x8(%rbp)
+   e:	89 55 f4             	mov    %edx,-0xc(%rbp)
+  11:	8b 45 fc             	mov    -0x4(%rbp),%eax
+  14:	3b 45 f8             	cmp    -0x8(%rbp),%eax
+  17:	7f 0d                	jg     26 <min3+0x26>
+  19:	8b 45 fc             	mov    -0x4(%rbp),%eax
+  1c:	3b 45 f4             	cmp    -0xc(%rbp),%eax
+  1f:	7f 05                	jg     26 <min3+0x26>
+  21:	8b 45 fc             	mov    -0x4(%rbp),%eax
+  24:	eb 10                	jmp    36 <min3+0x36>
+  26:	8b 45 f8             	mov    -0x8(%rbp),%eax
+  29:	3b 45 f4             	cmp    -0xc(%rbp),%eax
+  2c:	7f 05                	jg     33 <min3+0x33>
+  2e:	8b 45 f8             	mov    -0x8(%rbp),%eax
+  31:	eb 03                	jmp    36 <min3+0x36>
+  33:	8b 45 f4             	mov    -0xc(%rbp),%eax
+  36:	5d                   	pop    %rbp
+  37:	c3                   	retq   
+
+# main function here
+0000000000000038 <main>:
+  38:	f3 0f 1e fa          	endbr64 
+  3c:	55                   	push   %rbp
+  3d:	48 89 e5             	mov    %rsp,%rbp
+  40:	48 83 ec 10          	sub    $0x10,%rsp
+  44:	8b 05 00 00 00 00    	mov    0x0(%rip),%eax        # 4a <main+0x12>
+  4a:	89 c6                	mov    %eax,%esi
+  4c:	48 8d 3d 00 00 00 00 	lea    0x0(%rip),%rdi        # 53 <main+0x1b>
+  53:	b8 00 00 00 00       	mov    $0x0,%eax
+  58:	e8 00 00 00 00       	callq  5d <main+0x25>
+  5d:	ba 04 00 00 00       	mov    $0x4,%edx
+  62:	be 03 00 00 00       	mov    $0x3,%esi
+  67:	bf 02 00 00 00       	mov    $0x2,%edi
+  6c:	e8 00 00 00 00       	callq  71 <main+0x39>
+  71:	89 45 fc             	mov    %eax,-0x4(%rbp)
+  74:	8b 45 fc             	mov    -0x4(%rbp),%eax
+  77:	89 c6                	mov    %eax,%esi
+  79:	48 8d 3d 00 00 00 00 	lea    0x0(%rip),%rdi        # 80 <main+0x48>
+  80:	b8 00 00 00 00       	mov    $0x0,%eax
+  85:	e8 00 00 00 00       	callq  8a <main+0x52>
+  8a:	b8 00 00 00 00       	mov    $0x0,%eax
+  8f:	c9                   	leaveq 
+  90:	c3                   	retq   

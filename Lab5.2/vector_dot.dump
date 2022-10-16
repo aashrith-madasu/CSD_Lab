@@ -1,0 +1,39 @@
+
+vector_dot.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <vector_dot>:
+   0:	f3 0f 1e fa          	endbr64 
+   4:	55                   	push   %rbp
+   5:	48 89 e5             	mov    %rsp,%rbp
+   8:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+   c:	48 89 75 e0          	mov    %rsi,-0x20(%rbp)
+  10:	c7 45 fc 02 00 00 00 	movl   $0x2,-0x4(%rbp)
+  17:	c7 45 f4 00 00 00 00 	movl   $0x0,-0xc(%rbp)
+  1e:	c7 45 f8 00 00 00 00 	movl   $0x0,-0x8(%rbp)
+  25:	eb 36                	jmp    5d <vector_dot+0x5d>
+  27:	8b 45 f8             	mov    -0x8(%rbp),%eax
+  2a:	48 98                	cltq   
+  2c:	48 8d 14 85 00 00 00 	lea    0x0(,%rax,4),%rdx
+  33:	00 
+  34:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  38:	48 01 d0             	add    %rdx,%rax
+  3b:	8b 10                	mov    (%rax),%edx
+  3d:	8b 45 f8             	mov    -0x8(%rbp),%eax
+  40:	48 98                	cltq   
+  42:	48 8d 0c 85 00 00 00 	lea    0x0(,%rax,4),%rcx
+  49:	00 
+  4a:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+  4e:	48 01 c8             	add    %rcx,%rax
+  51:	8b 00                	mov    (%rax),%eax
+  53:	0f af c2             	imul   %edx,%eax
+  56:	01 45 f4             	add    %eax,-0xc(%rbp)
+  59:	83 45 f8 01          	addl   $0x1,-0x8(%rbp)
+  5d:	8b 45 f8             	mov    -0x8(%rbp),%eax
+  60:	3b 45 fc             	cmp    -0x4(%rbp),%eax
+  63:	7c c2                	jl     27 <vector_dot+0x27>
+  65:	8b 45 f4             	mov    -0xc(%rbp),%eax
+  68:	5d                   	pop    %rbp
+  69:	c3                   	retq   

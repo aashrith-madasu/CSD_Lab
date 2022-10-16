@@ -1,0 +1,75 @@
+
+utils.o:     file format elf64-littleriscv
+
+
+Disassembly of section .text:
+
+# max3 here --------------
+0000000000000000 <max3>:
+   0:	fe010113          	addi	sp,sp,-32
+   4:	00813c23          	sd	s0,24(sp)
+   8:	02010413          	addi	s0,sp,32
+   c:	00050793          	mv	a5,a0
+  10:	00058693          	mv	a3,a1
+  14:	00060713          	mv	a4,a2
+  18:	fef42623          	sw	a5,-20(s0)
+  1c:	00068793          	mv	a5,a3
+  20:	fef42423          	sw	a5,-24(s0)
+  24:	00070793          	mv	a5,a4
+  28:	fef42223          	sw	a5,-28(s0)
+  2c:	fec42703          	lw	a4,-20(s0)
+  30:	fe842783          	lw	a5,-24(s0)
+  34:	0007071b          	sext.w	a4,a4
+  38:	0007879b          	sext.w	a5,a5
+  3c:	02f74063          	blt	a4,a5,5c <.L2>
+  40:	fec42703          	lw	a4,-20(s0)
+  44:	fe442783          	lw	a5,-28(s0)
+  48:	0007071b          	sext.w	a4,a4
+  4c:	0007879b          	sext.w	a5,a5
+  50:	00f74663          	blt	a4,a5,5c <.L2>
+  54:	fec42783          	lw	a5,-20(s0)
+  58:	0240006f          	j	7c <.L3>
+
+000000000000005c <.L2>:
+  5c:	fe842703          	lw	a4,-24(s0)
+  60:	fe442783          	lw	a5,-28(s0)
+  64:	0007071b          	sext.w	a4,a4
+  68:	0007879b          	sext.w	a5,a5
+  6c:	00f74663          	blt	a4,a5,78 <.L4>
+  70:	fe842783          	lw	a5,-24(s0)
+  74:	0080006f          	j	7c <.L3>
+
+0000000000000078 <.L4>:
+  78:	fe442783          	lw	a5,-28(s0)
+
+000000000000007c <.L3>:
+  7c:	00078513          	mv	a0,a5
+  80:	01813403          	ld	s0,24(sp)
+  84:	02010113          	addi	sp,sp,32
+  88:	00008067          	ret
+
+
+# sum3 here --------------
+000000000000008c <sum3>:
+  8c:	fe010113          	addi	sp,sp,-32
+  90:	00813c23          	sd	s0,24(sp)
+  94:	02010413          	addi	s0,sp,32
+  98:	00050793          	mv	a5,a0
+  9c:	00058693          	mv	a3,a1
+  a0:	00060713          	mv	a4,a2
+  a4:	fef42623          	sw	a5,-20(s0)
+  a8:	00068793          	mv	a5,a3
+  ac:	fef42423          	sw	a5,-24(s0)
+  b0:	00070793          	mv	a5,a4
+  b4:	fef42223          	sw	a5,-28(s0)
+  b8:	fec42703          	lw	a4,-20(s0)
+  bc:	fe842783          	lw	a5,-24(s0)
+  c0:	00f707bb          	addw	a5,a4,a5
+  c4:	0007879b          	sext.w	a5,a5
+  c8:	fe442703          	lw	a4,-28(s0)
+  cc:	00f707bb          	addw	a5,a4,a5
+  d0:	0007879b          	sext.w	a5,a5
+  d4:	00078513          	mv	a0,a5
+  d8:	01813403          	ld	s0,24(sp)
+  dc:	02010113          	addi	sp,sp,32
+  e0:	00008067          	ret
