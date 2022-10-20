@@ -3,6 +3,8 @@
 @j
 @min_i
 @t
+@t1
+@t2
 
 @arr
 M = 0
@@ -27,20 +29,26 @@ M = 0
 
 (FOR1)
 
+@i
+D = M
+@8
+D = D - A
 
-// min_i = arr + i
+@ENDFOR1
+D;JGE
+
+
+// min_i = i
 // j = i+1
 // for(j<8)
 //      if(arr[j] < arr[min_i])
 //          min_i = j
+//      j = j + 1
 //  swap(arr[i], arr[min_i])
 
 
 @i
 D = M
-@arr
-A = A + D
-D = A // arr+i
 @min_i
 M = D
 
@@ -84,11 +92,8 @@ D;JGE
 
 @j
 D = M
-@arr
-A = A + D
-D = M  // arr[j]
 
-@min
+@min_i
 M = D
 
 
@@ -106,9 +111,31 @@ M = M + 1
 D = M
 @arr
 A = A + D
-D = A
+D = M
+
+@t1
+M = D
 
 @min_i
+D = M
+@arr
+A = A + D
+D = M
+
+@t2
+M = D
+
+// t1 -> arr[i]
+// t2 -> arr[min_i]
+
+
+// arr[i] = t2
+@i
+D = M
+@arr
+D = A + D
+
+@t2
 A = M
 
 D = D + A
@@ -117,6 +144,24 @@ D = D - A
 
 M = D
 
+// arr[min_i] = t1
+
+@min_i
+D = M
+@arr
+D = A + D
+
+@t1
+A = M
+
+D = D + A
+A = D - A
+D = D - A
+
+M = D
+
+
+// ------
 @i
 M = M + 1
 
@@ -125,3 +170,9 @@ M = M + 1
 
 
 (ENDFOR1)
+
+
+
+(END)
+@END
+0;JMP

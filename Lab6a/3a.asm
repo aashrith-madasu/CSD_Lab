@@ -70,4 +70,7 @@ M = M + 1
 (STOP2)
 
 
+(END)
+@END
+0;JMP
 
