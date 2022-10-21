@@ -1,6 +1,6 @@
 //This program will display black and white strips on the screen
 
-	@4096
+	@8192
 	D = A
 	@0
 	M = D
@@ -15,12 +15,16 @@
 	@address
 	M=D
 (LOOP)
+	@21846
+	D = A
+	@0
+	D = A - D
 	@address
 	A=M
-	M=-1
+	M=D
 	@address
 	D=M
-	@2
+	@1
 	D=D+A
 	@address
 	M=D
@@ -35,4 +39,3 @@
 (end)
 	@end
 	0;JMP
-
