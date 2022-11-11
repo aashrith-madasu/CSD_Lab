@@ -11,7 +11,7 @@ CHIP Counter {
     //JKFF(j=true, k=true, q=qa, q=out[0]);
     JKFF(j=j0, k=k0, q=qa, q=out[0]);
     Not(in=qa, out=qabar);
-    And(a=up, b=qa, out=w1);
+    And(a=qa, b=up, out=w1);
     Not(in=up, out=upbar);
     And(a=qabar, b=upbar, out=w2);
     Or(a=w1, b=w2, out=w3);
